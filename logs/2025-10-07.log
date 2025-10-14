@@ -1,0 +1,1009 @@
+2025-10-07 04:52:42,147 - INFO - Loaded S&P 500 list with 503 companies data
+2025-10-07 04:52:42,147 - INFO - Starting S&P 500 data download process
+2025-10-07 04:52:42,147 - INFO - Processing 1/503 : A - Agilent Technologies - 3y
+2025-10-07 04:52:44,317 - INFO - Successfully saved A data (751 rows)
+2025-10-07 04:52:44,318 - INFO - Processing 2/503 : AAPL - Apple Inc. - 3y
+2025-10-07 04:52:44,927 - INFO - Successfully saved AAPL data (751 rows)
+2025-10-07 04:52:44,927 - INFO - Processing 3/503 : ABBV - AbbVie - 3y
+2025-10-07 04:52:45,597 - INFO - Successfully saved ABBV data (751 rows)
+2025-10-07 04:52:45,598 - INFO - Processing 4/503 : ABNB - Airbnb - 3y
+2025-10-07 04:52:46,118 - INFO - Successfully saved ABNB data (751 rows)
+2025-10-07 04:52:46,119 - INFO - Processing 5/503 : ABT - Abbott Laboratories - 3y
+2025-10-07 04:52:46,683 - INFO - Successfully saved ABT data (751 rows)
+2025-10-07 04:52:46,683 - INFO - Processing 6/503 : ACGL - Arch Capital Group - 3y
+2025-10-07 04:52:47,190 - INFO - Successfully saved ACGL data (751 rows)
+2025-10-07 04:52:47,190 - INFO - Processing 7/503 : ACN - Accenture - 3y
+2025-10-07 04:52:47,693 - INFO - Successfully saved ACN data (751 rows)
+2025-10-07 04:52:47,694 - INFO - Processing 8/503 : ADBE - Adobe Inc. - 3y
+2025-10-07 04:52:48,351 - INFO - Successfully saved ADBE data (751 rows)
+2025-10-07 04:52:48,351 - INFO - Processing 9/503 : ADI - Analog Devices - 3y
+2025-10-07 04:52:48,958 - INFO - Successfully saved ADI data (751 rows)
+2025-10-07 04:52:48,958 - INFO - Processing 10/503 : ADM - Archer Daniels Midland - 3y
+2025-10-07 04:52:49,495 - INFO - Successfully saved ADM data (751 rows)
+2025-10-07 04:52:49,495 - INFO - Processing 11/503 : ADP - Automatic Data Processing - 3y
+2025-10-07 04:52:50,049 - INFO - Successfully saved ADP data (751 rows)
+2025-10-07 04:52:50,050 - INFO - Processing 12/503 : ADSK - Autodesk - 3y
+2025-10-07 04:52:50,563 - INFO - Successfully saved ADSK data (751 rows)
+2025-10-07 04:52:50,564 - INFO - Processing 13/503 : AEE - Ameren - 3y
+2025-10-07 04:52:51,116 - INFO - Successfully saved AEE data (751 rows)
+2025-10-07 04:52:51,117 - INFO - Processing 14/503 : AEP - American Electric Power - 3y
+2025-10-07 04:52:51,678 - INFO - Successfully saved AEP data (751 rows)
+2025-10-07 04:52:51,678 - INFO - Processing 15/503 : AES - AES Corporation - 3y
+2025-10-07 04:52:52,212 - INFO - Successfully saved AES data (751 rows)
+2025-10-07 04:52:52,212 - INFO - Processing 16/503 : AFL - Aflac - 3y
+2025-10-07 04:52:52,762 - INFO - Successfully saved AFL data (751 rows)
+2025-10-07 04:52:52,763 - INFO - Processing 17/503 : AIG - American International Group - 3y
+2025-10-07 04:52:53,321 - INFO - Successfully saved AIG data (751 rows)
+2025-10-07 04:52:53,321 - INFO - Processing 18/503 : AIZ - Assurant - 3y
+2025-10-07 04:52:53,808 - INFO - Successfully saved AIZ data (751 rows)
+2025-10-07 04:52:53,809 - INFO - Processing 19/503 : AJG - Arthur J. Gallagher & Co. - 3y
+2025-10-07 04:52:54,392 - INFO - Successfully saved AJG data (751 rows)
+2025-10-07 04:52:54,392 - INFO - Processing 20/503 : AKAM - Akamai Technologies - 3y
+2025-10-07 04:52:54,909 - INFO - Successfully saved AKAM data (751 rows)
+2025-10-07 04:52:54,910 - INFO - Processing 21/503 : ALB - Albemarle Corporation - 3y
+2025-10-07 04:52:55,509 - INFO - Successfully saved ALB data (751 rows)
+2025-10-07 04:52:55,510 - INFO - Processing 22/503 : ALGN - Align Technology - 3y
+2025-10-07 04:52:55,977 - INFO - Successfully saved ALGN data (751 rows)
+2025-10-07 04:52:55,977 - INFO - Processing 23/503 : ALL - Allstate - 3y
+2025-10-07 04:52:56,524 - INFO - Successfully saved ALL data (751 rows)
+2025-10-07 04:52:56,524 - INFO - Processing 24/503 : ALLE - Allegion - 3y
+2025-10-07 04:52:57,055 - INFO - Successfully saved ALLE data (751 rows)
+2025-10-07 04:52:57,055 - INFO - Processing 25/503 : AMAT - Applied Materials - 3y
+2025-10-07 04:52:57,690 - INFO - Successfully saved AMAT data (751 rows)
+2025-10-07 04:52:57,690 - INFO - Processing 26/503 : AMCR - Amcor - 3y
+2025-10-07 04:52:58,308 - INFO - Successfully saved AMCR data (751 rows)
+2025-10-07 04:52:58,309 - INFO - Processing 27/503 : AMD - Advanced Micro Devices - 3y
+2025-10-07 04:52:58,814 - INFO - Successfully saved AMD data (751 rows)
+2025-10-07 04:52:58,814 - INFO - Processing 28/503 : AME - Ametek - 3y
+2025-10-07 04:52:59,356 - INFO - Successfully saved AME data (751 rows)
+2025-10-07 04:52:59,356 - INFO - Processing 29/503 : AMGN - Amgen - 3y
+2025-10-07 04:52:59,855 - INFO - Successfully saved AMGN data (751 rows)
+2025-10-07 04:52:59,855 - INFO - Processing 30/503 : AMP - Ameriprise Financial - 3y
+2025-10-07 04:53:00,400 - INFO - Successfully saved AMP data (751 rows)
+2025-10-07 04:53:00,401 - INFO - Processing 31/503 : AMT - American Tower - 3y
+2025-10-07 04:53:00,899 - INFO - Successfully saved AMT data (751 rows)
+2025-10-07 04:53:00,900 - INFO - Processing 32/503 : AMZN - Amazon - 3y
+2025-10-07 04:53:01,371 - INFO - Successfully saved AMZN data (751 rows)
+2025-10-07 04:53:01,371 - INFO - Processing 33/503 : ANET - Arista Networks - 3y
+2025-10-07 04:53:01,896 - INFO - Successfully saved ANET data (751 rows)
+2025-10-07 04:53:01,897 - INFO - Processing 34/503 : AON - Aon plc - 3y
+2025-10-07 04:53:02,473 - INFO - Successfully saved AON data (751 rows)
+2025-10-07 04:53:02,473 - INFO - Processing 35/503 : AOS - A. O. Smith - 3y
+2025-10-07 04:53:03,044 - INFO - Successfully saved AOS data (751 rows)
+2025-10-07 04:53:03,044 - INFO - Processing 36/503 : APA - APA Corporation - 3y
+2025-10-07 04:53:03,674 - INFO - Successfully saved APA data (751 rows)
+2025-10-07 04:53:03,674 - INFO - Processing 37/503 : APD - Air Products - 3y
+2025-10-07 04:53:04,267 - INFO - Successfully saved APD data (751 rows)
+2025-10-07 04:53:04,268 - INFO - Processing 38/503 : APH - Amphenol - 3y
+2025-10-07 04:53:04,815 - INFO - Successfully saved APH data (751 rows)
+2025-10-07 04:53:04,815 - INFO - Processing 39/503 : APO - Apollo Global Management - 3y
+2025-10-07 04:53:05,298 - INFO - Successfully saved APO data (751 rows)
+2025-10-07 04:53:05,299 - INFO - Processing 40/503 : APTV - Aptiv - 3y
+2025-10-07 04:53:05,808 - INFO - Successfully saved APTV data (751 rows)
+2025-10-07 04:53:05,808 - INFO - Processing 41/503 : ARE - Alexandria Real Estate Equities - 3y
+2025-10-07 04:53:06,355 - INFO - Successfully saved ARE data (751 rows)
+2025-10-07 04:53:06,356 - INFO - Processing 42/503 : ATO - Atmos Energy - 3y
+2025-10-07 04:53:06,870 - INFO - Successfully saved ATO data (751 rows)
+2025-10-07 04:53:06,870 - INFO - Processing 43/503 : AVB - AvalonBay Communities - 3y
+2025-10-07 04:53:07,408 - INFO - Successfully saved AVB data (751 rows)
+2025-10-07 04:53:07,409 - INFO - Processing 44/503 : AVGO - Broadcom - 3y
+2025-10-07 04:53:07,969 - INFO - Successfully saved AVGO data (751 rows)
+2025-10-07 04:53:07,970 - INFO - Processing 45/503 : AVY - Avery Dennison - 3y
+2025-10-07 04:53:08,525 - INFO - Successfully saved AVY data (751 rows)
+2025-10-07 04:53:08,526 - INFO - Processing 46/503 : AWK - American Water Works - 3y
+2025-10-07 04:53:09,062 - INFO - Successfully saved AWK data (751 rows)
+2025-10-07 04:53:09,063 - INFO - Processing 47/503 : AXON - Axon Enterprise - 3y
+2025-10-07 04:53:09,566 - INFO - Successfully saved AXON data (751 rows)
+2025-10-07 04:53:09,566 - INFO - Processing 48/503 : AXP - American Express - 3y
+2025-10-07 04:53:10,145 - INFO - Successfully saved AXP data (751 rows)
+2025-10-07 04:53:10,145 - INFO - Processing 49/503 : AZO - AutoZone - 3y
+2025-10-07 04:53:10,649 - INFO - Successfully saved AZO data (751 rows)
+2025-10-07 04:53:10,650 - INFO - Processing 50/503 : BA - Boeing - 3y
+2025-10-07 04:53:11,224 - INFO - Successfully saved BA data (751 rows)
+2025-10-07 04:53:11,224 - INFO - Processing 51/503 : BAC - Bank of America - 3y
+2025-10-07 04:53:11,762 - INFO - Successfully saved BAC data (751 rows)
+2025-10-07 04:53:11,763 - INFO - Processing 52/503 : BALL - Ball Corporation - 3y
+2025-10-07 04:53:12,321 - INFO - Successfully saved BALL data (751 rows)
+2025-10-07 04:53:12,321 - INFO - Processing 53/503 : BAX - Baxter International - 3y
+2025-10-07 04:53:12,895 - INFO - Successfully saved BAX data (751 rows)
+2025-10-07 04:53:12,895 - INFO - Processing 54/503 : BBY - Best Buy - 3y
+2025-10-07 04:53:13,403 - INFO - Successfully saved BBY data (751 rows)
+2025-10-07 04:53:13,404 - INFO - Processing 55/503 : BDX - Becton Dickinson - 3y
+2025-10-07 04:53:13,993 - INFO - Successfully saved BDX data (751 rows)
+2025-10-07 04:53:13,993 - INFO - Processing 56/503 : BEN - Franklin Resources - 3y
+2025-10-07 04:53:14,531 - INFO - Successfully saved BEN data (751 rows)
+2025-10-07 04:53:14,532 - INFO - Processing 57/503 : BF-B - Brown–Forman - 3y
+2025-10-07 04:53:15,098 - INFO - Successfully saved BF-B data (751 rows)
+2025-10-07 04:53:15,098 - INFO - Processing 58/503 : BG - Bunge Global - 3y
+2025-10-07 04:53:15,661 - INFO - Successfully saved BG data (751 rows)
+2025-10-07 04:53:15,662 - INFO - Processing 59/503 : BIIB - Biogen - 3y
+2025-10-07 04:53:16,301 - INFO - Successfully saved BIIB data (751 rows)
+2025-10-07 04:53:16,301 - INFO - Processing 60/503 : BK - BNY Mellon - 3y
+2025-10-07 04:53:16,952 - INFO - Successfully saved BK data (751 rows)
+2025-10-07 04:53:16,953 - INFO - Processing 61/503 : BKNG - Booking Holdings - 3y
+2025-10-07 04:53:17,599 - INFO - Successfully saved BKNG data (751 rows)
+2025-10-07 04:53:17,600 - INFO - Processing 62/503 : BKR - Baker Hughes - 3y
+2025-10-07 04:53:18,316 - INFO - Successfully saved BKR data (751 rows)
+2025-10-07 04:53:18,316 - INFO - Processing 63/503 : BLDR - Builders FirstSource - 3y
+2025-10-07 04:53:18,852 - INFO - Successfully saved BLDR data (751 rows)
+2025-10-07 04:53:18,853 - INFO - Processing 64/503 : BLK - BlackRock - 3y
+2025-10-07 04:53:19,389 - INFO - Successfully saved BLK data (751 rows)
+2025-10-07 04:53:19,389 - INFO - Processing 65/503 : BMY - Bristol Myers Squibb - 3y
+2025-10-07 04:53:19,987 - INFO - Successfully saved BMY data (751 rows)
+2025-10-07 04:53:19,987 - INFO - Processing 66/503 : BR - Broadridge Financial Solutions - 3y
+2025-10-07 04:53:20,500 - INFO - Successfully saved BR data (751 rows)
+2025-10-07 04:53:20,501 - INFO - Processing 67/503 : BRK-B - Berkshire Hathaway - 3y
+2025-10-07 04:53:20,974 - INFO - Successfully saved BRK-B data (751 rows)
+2025-10-07 04:53:20,975 - INFO - Processing 68/503 : BRO - Brown & Brown - 3y
+2025-10-07 04:53:21,505 - INFO - Successfully saved BRO data (751 rows)
+2025-10-07 04:53:21,505 - INFO - Processing 69/503 : BSX - Boston Scientific - 3y
+2025-10-07 04:53:21,917 - INFO - Successfully saved BSX data (751 rows)
+2025-10-07 04:53:21,918 - INFO - Processing 70/503 : BX - Blackstone Inc. - 3y
+2025-10-07 04:53:22,462 - INFO - Successfully saved BX data (751 rows)
+2025-10-07 04:53:22,462 - INFO - Processing 71/503 : BXP - BXP, Inc. - 3y
+2025-10-07 04:53:23,032 - INFO - Successfully saved BXP data (751 rows)
+2025-10-07 04:53:23,032 - INFO - Processing 72/503 : C - Citigroup - 3y
+2025-10-07 04:53:23,589 - INFO - Successfully saved C data (751 rows)
+2025-10-07 04:53:23,590 - INFO - Processing 73/503 : CAG - Conagra Brands - 3y
+2025-10-07 04:53:24,163 - INFO - Successfully saved CAG data (751 rows)
+2025-10-07 04:53:24,163 - INFO - Processing 74/503 : CAH - Cardinal Health - 3y
+2025-10-07 04:53:24,686 - INFO - Successfully saved CAH data (751 rows)
+2025-10-07 04:53:24,687 - INFO - Processing 75/503 : CARR - Carrier Global - 3y
+2025-10-07 04:53:25,193 - INFO - Successfully saved CARR data (751 rows)
+2025-10-07 04:53:25,194 - INFO - Processing 76/503 : CAT - Caterpillar Inc. - 3y
+2025-10-07 04:53:25,794 - INFO - Successfully saved CAT data (751 rows)
+2025-10-07 04:53:25,795 - INFO - Processing 77/503 : CB - Chubb Limited - 3y
+2025-10-07 04:53:26,333 - INFO - Successfully saved CB data (751 rows)
+2025-10-07 04:53:26,333 - INFO - Processing 78/503 : CBOE - Cboe Global Markets - 3y
+2025-10-07 04:53:26,862 - INFO - Successfully saved CBOE data (751 rows)
+2025-10-07 04:53:26,862 - INFO - Processing 79/503 : CBRE - CBRE Group - 3y
+2025-10-07 04:53:27,375 - INFO - Successfully saved CBRE data (751 rows)
+2025-10-07 04:53:27,376 - INFO - Processing 80/503 : CCI - Crown Castle - 3y
+2025-10-07 04:53:27,905 - INFO - Successfully saved CCI data (751 rows)
+2025-10-07 04:53:27,906 - INFO - Processing 81/503 : CCL - Carnival - 3y
+2025-10-07 04:53:28,429 - INFO - Successfully saved CCL data (751 rows)
+2025-10-07 04:53:28,429 - INFO - Processing 82/503 : CDNS - Cadence Design Systems - 3y
+2025-10-07 04:53:28,946 - INFO - Successfully saved CDNS data (751 rows)
+2025-10-07 04:53:28,947 - INFO - Processing 83/503 : CDW - CDW Corporation - 3y
+2025-10-07 04:53:29,471 - INFO - Successfully saved CDW data (751 rows)
+2025-10-07 04:53:29,472 - INFO - Processing 84/503 : CEG - Constellation Energy - 3y
+2025-10-07 04:53:29,969 - INFO - Successfully saved CEG data (751 rows)
+2025-10-07 04:53:29,970 - INFO - Processing 85/503 : CF - CF Industries - 3y
+2025-10-07 04:53:30,524 - INFO - Successfully saved CF data (751 rows)
+2025-10-07 04:53:30,524 - INFO - Processing 86/503 : CFG - Citizens Financial Group - 3y
+2025-10-07 04:53:31,048 - INFO - Successfully saved CFG data (751 rows)
+2025-10-07 04:53:31,049 - INFO - Processing 87/503 : CHD - Church & Dwight - 3y
+2025-10-07 04:53:31,630 - INFO - Successfully saved CHD data (751 rows)
+2025-10-07 04:53:31,630 - INFO - Processing 88/503 : CHRW - C.H. Robinson - 3y
+2025-10-07 04:53:32,136 - INFO - Successfully saved CHRW data (751 rows)
+2025-10-07 04:53:32,136 - INFO - Processing 89/503 : CHTR - Charter Communications - 3y
+2025-10-07 04:53:32,619 - INFO - Successfully saved CHTR data (751 rows)
+2025-10-07 04:53:32,620 - INFO - Processing 90/503 : CI - Cigna - 3y
+2025-10-07 04:53:33,181 - INFO - Successfully saved CI data (751 rows)
+2025-10-07 04:53:33,182 - INFO - Processing 91/503 : CINF - Cincinnati Financial - 3y
+2025-10-07 04:53:33,753 - INFO - Successfully saved CINF data (751 rows)
+2025-10-07 04:53:33,753 - INFO - Processing 92/503 : CL - Colgate-Palmolive - 3y
+2025-10-07 04:53:34,302 - INFO - Successfully saved CL data (751 rows)
+2025-10-07 04:53:34,302 - INFO - Processing 93/503 : CLX - Clorox - 3y
+2025-10-07 04:53:34,848 - INFO - Successfully saved CLX data (751 rows)
+2025-10-07 04:53:34,848 - INFO - Processing 94/503 : CMCSA - Comcast - 3y
+2025-10-07 04:53:35,377 - INFO - Successfully saved CMCSA data (751 rows)
+2025-10-07 04:53:35,378 - INFO - Processing 95/503 : CME - CME Group - 3y
+2025-10-07 04:53:35,947 - INFO - Successfully saved CME data (751 rows)
+2025-10-07 04:53:35,947 - INFO - Processing 96/503 : CMG - Chipotle Mexican Grill - 3y
+2025-10-07 04:53:36,453 - INFO - Successfully saved CMG data (751 rows)
+2025-10-07 04:53:36,454 - INFO - Processing 97/503 : CMI - Cummins - 3y
+2025-10-07 04:53:37,022 - INFO - Successfully saved CMI data (751 rows)
+2025-10-07 04:53:37,023 - INFO - Processing 98/503 : CMS - CMS Energy - 3y
+2025-10-07 04:53:37,669 - INFO - Successfully saved CMS data (751 rows)
+2025-10-07 04:53:37,670 - INFO - Processing 99/503 : CNC - Centene Corporation - 3y
+2025-10-07 04:53:38,123 - INFO - Successfully saved CNC data (751 rows)
+2025-10-07 04:53:38,124 - INFO - Processing 100/503 : CNP - CenterPoint Energy - 3y
+2025-10-07 04:53:38,830 - INFO - Successfully saved CNP data (751 rows)
+2025-10-07 04:53:38,831 - INFO - Processing 101/503 : COF - Capital One - 3y
+2025-10-07 04:53:39,387 - INFO - Successfully saved COF data (751 rows)
+2025-10-07 04:53:39,387 - INFO - Processing 102/503 : COIN - Coinbase - 3y
+2025-10-07 04:53:40,050 - INFO - Successfully saved COIN data (751 rows)
+2025-10-07 04:53:40,050 - INFO - Processing 103/503 : COO - Cooper Companies (The) - 3y
+2025-10-07 04:53:40,832 - INFO - Successfully saved COO data (751 rows)
+2025-10-07 04:53:40,832 - INFO - Processing 104/503 : COP - ConocoPhillips - 3y
+2025-10-07 04:53:41,387 - INFO - Successfully saved COP data (751 rows)
+2025-10-07 04:53:41,387 - INFO - Processing 105/503 : COR - Cencora - 3y
+2025-10-07 04:53:41,936 - INFO - Successfully saved COR data (751 rows)
+2025-10-07 04:53:41,936 - INFO - Processing 106/503 : COST - Costco - 3y
+2025-10-07 04:53:42,491 - INFO - Successfully saved COST data (751 rows)
+2025-10-07 04:53:42,491 - INFO - Processing 107/503 : CPAY - Corpay - 3y
+2025-10-07 04:53:42,973 - INFO - Successfully saved CPAY data (751 rows)
+2025-10-07 04:53:42,974 - INFO - Processing 108/503 : CPB - Campbell's Company (The) - 3y
+2025-10-07 04:53:43,553 - INFO - Successfully saved CPB data (751 rows)
+2025-10-07 04:53:43,553 - INFO - Processing 109/503 : CPRT - Copart - 3y
+2025-10-07 04:53:44,041 - INFO - Successfully saved CPRT data (751 rows)
+2025-10-07 04:53:44,042 - INFO - Processing 110/503 : CPT - Camden Property Trust - 3y
+2025-10-07 04:53:44,615 - INFO - Successfully saved CPT data (751 rows)
+2025-10-07 04:53:44,616 - INFO - Processing 111/503 : CRL - Charles River Laboratories - 3y
+2025-10-07 04:53:45,069 - INFO - Successfully saved CRL data (751 rows)
+2025-10-07 04:53:45,070 - INFO - Processing 112/503 : CRM - Salesforce - 3y
+2025-10-07 04:53:45,578 - INFO - Successfully saved CRM data (751 rows)
+2025-10-07 04:53:45,579 - INFO - Processing 113/503 : CRWD - CrowdStrike - 3y
+2025-10-07 04:53:46,043 - INFO - Successfully saved CRWD data (751 rows)
+2025-10-07 04:53:46,044 - INFO - Processing 114/503 : CSCO - Cisco - 3y
+2025-10-07 04:53:46,590 - INFO - Successfully saved CSCO data (751 rows)
+2025-10-07 04:53:46,590 - INFO - Processing 115/503 : CSGP - CoStar Group - 3y
+2025-10-07 04:53:47,055 - INFO - Successfully saved CSGP data (751 rows)
+2025-10-07 04:53:47,056 - INFO - Processing 116/503 : CSX - CSX Corporation - 3y
+2025-10-07 04:53:47,623 - INFO - Successfully saved CSX data (751 rows)
+2025-10-07 04:53:47,624 - INFO - Processing 117/503 : CTAS - Cintas - 3y
+2025-10-07 04:53:48,135 - INFO - Successfully saved CTAS data (751 rows)
+2025-10-07 04:53:48,135 - INFO - Processing 118/503 : CTRA - Coterra - 3y
+2025-10-07 04:53:48,685 - INFO - Successfully saved CTRA data (751 rows)
+2025-10-07 04:53:48,685 - INFO - Processing 119/503 : CTSH - Cognizant - 3y
+2025-10-07 04:53:49,190 - INFO - Successfully saved CTSH data (751 rows)
+2025-10-07 04:53:49,191 - INFO - Processing 120/503 : CTVA - Corteva - 3y
+2025-10-07 04:53:49,777 - INFO - Successfully saved CTVA data (751 rows)
+2025-10-07 04:53:49,777 - INFO - Processing 121/503 : CVS - CVS Health - 3y
+2025-10-07 04:53:50,364 - INFO - Successfully saved CVS data (751 rows)
+2025-10-07 04:53:50,364 - INFO - Processing 122/503 : CVX - Chevron Corporation - 3y
+2025-10-07 04:53:50,942 - INFO - Successfully saved CVX data (751 rows)
+2025-10-07 04:53:50,942 - INFO - Processing 123/503 : CZR - Caesars Entertainment - 3y
+2025-10-07 04:53:51,357 - INFO - Successfully saved CZR data (751 rows)
+2025-10-07 04:53:51,357 - INFO - Processing 124/503 : D - Dominion Energy - 3y
+2025-10-07 04:53:51,922 - INFO - Successfully saved D data (751 rows)
+2025-10-07 04:53:51,922 - INFO - Processing 125/503 : DAL - Delta Air Lines - 3y
+2025-10-07 04:53:52,447 - INFO - Successfully saved DAL data (751 rows)
+2025-10-07 04:53:52,447 - INFO - Processing 126/503 : DASH - DoorDash - 3y
+2025-10-07 04:53:52,957 - INFO - Successfully saved DASH data (751 rows)
+2025-10-07 04:53:52,958 - INFO - Processing 127/503 : DAY - Dayforce - 3y
+2025-10-07 04:53:53,463 - INFO - Successfully saved DAY data (751 rows)
+2025-10-07 04:53:53,464 - INFO - Processing 128/503 : DD - DuPont - 3y
+2025-10-07 04:53:54,021 - INFO - Successfully saved DD data (751 rows)
+2025-10-07 04:53:54,021 - INFO - Processing 129/503 : DDOG - Datadog - 3y
+2025-10-07 04:53:54,545 - INFO - Successfully saved DDOG data (751 rows)
+2025-10-07 04:53:54,546 - INFO - Processing 130/503 : DE - Deere & Company - 3y
+2025-10-07 04:53:55,130 - INFO - Successfully saved DE data (751 rows)
+2025-10-07 04:53:55,130 - INFO - Processing 131/503 : DECK - Deckers Brands - 3y
+2025-10-07 04:53:55,624 - INFO - Successfully saved DECK data (751 rows)
+2025-10-07 04:53:55,625 - INFO - Processing 132/503 : DELL - Dell Technologies - 3y
+2025-10-07 04:53:56,129 - INFO - Successfully saved DELL data (751 rows)
+2025-10-07 04:53:56,129 - INFO - Processing 133/503 : DG - Dollar General - 3y
+2025-10-07 04:53:56,647 - INFO - Successfully saved DG data (751 rows)
+2025-10-07 04:53:56,647 - INFO - Processing 134/503 : DGX - Quest Diagnostics - 3y
+2025-10-07 04:53:57,182 - INFO - Successfully saved DGX data (751 rows)
+2025-10-07 04:53:57,183 - INFO - Processing 135/503 : DHI - D. R. Horton - 3y
+2025-10-07 04:53:57,755 - INFO - Successfully saved DHI data (751 rows)
+2025-10-07 04:53:57,755 - INFO - Processing 136/503 : DHR - Danaher Corporation - 3y
+2025-10-07 04:53:58,280 - INFO - Successfully saved DHR data (751 rows)
+2025-10-07 04:53:58,281 - INFO - Processing 137/503 : DIS - Walt Disney Company (The) - 3y
+2025-10-07 04:53:58,833 - INFO - Successfully saved DIS data (751 rows)
+2025-10-07 04:53:58,834 - INFO - Processing 138/503 : DLR - Digital Realty - 3y
+2025-10-07 04:53:59,358 - INFO - Successfully saved DLR data (751 rows)
+2025-10-07 04:53:59,358 - INFO - Processing 139/503 : DLTR - Dollar Tree - 3y
+2025-10-07 04:53:59,859 - INFO - Successfully saved DLTR data (751 rows)
+2025-10-07 04:53:59,860 - INFO - Processing 140/503 : DOC - Healthpeak Properties - 3y
+2025-10-07 04:54:00,396 - INFO - Successfully saved DOC data (751 rows)
+2025-10-07 04:54:00,396 - INFO - Processing 141/503 : DOV - Dover Corporation - 3y
+2025-10-07 04:54:00,965 - INFO - Successfully saved DOV data (751 rows)
+2025-10-07 04:54:00,965 - INFO - Processing 142/503 : DOW - Dow Inc. - 3y
+2025-10-07 04:54:01,488 - INFO - Successfully saved DOW data (751 rows)
+2025-10-07 04:54:01,489 - INFO - Processing 143/503 : DPZ - Domino's - 3y
+2025-10-07 04:54:02,125 - INFO - Successfully saved DPZ data (751 rows)
+2025-10-07 04:54:02,126 - INFO - Processing 144/503 : DRI - Darden Restaurants - 3y
+2025-10-07 04:54:03,162 - INFO - Successfully saved DRI data (751 rows)
+2025-10-07 04:54:03,163 - INFO - Processing 145/503 : DTE - DTE Energy - 3y
+2025-10-07 04:54:03,924 - INFO - Successfully saved DTE data (751 rows)
+2025-10-07 04:54:03,924 - INFO - Processing 146/503 : DUK - Duke Energy - 3y
+2025-10-07 04:54:04,554 - INFO - Successfully saved DUK data (751 rows)
+2025-10-07 04:54:04,554 - INFO - Processing 147/503 : DVA - DaVita - 3y
+2025-10-07 04:54:05,080 - INFO - Successfully saved DVA data (751 rows)
+2025-10-07 04:54:05,080 - INFO - Processing 148/503 : DVN - Devon Energy - 3y
+2025-10-07 04:54:05,597 - INFO - Successfully saved DVN data (751 rows)
+2025-10-07 04:54:05,597 - INFO - Processing 149/503 : DXCM - Dexcom - 3y
+2025-10-07 04:54:06,070 - INFO - Successfully saved DXCM data (751 rows)
+2025-10-07 04:54:06,071 - INFO - Processing 150/503 : EA - Electronic Arts - 3y
+2025-10-07 04:54:06,587 - INFO - Successfully saved EA data (751 rows)
+2025-10-07 04:54:06,588 - INFO - Processing 151/503 : EBAY - eBay Inc. - 3y
+2025-10-07 04:54:07,135 - INFO - Successfully saved EBAY data (751 rows)
+2025-10-07 04:54:07,136 - INFO - Processing 152/503 : ECL - Ecolab - 3y
+2025-10-07 04:54:07,709 - INFO - Successfully saved ECL data (751 rows)
+2025-10-07 04:54:07,709 - INFO - Processing 153/503 : ED - Consolidated Edison - 3y
+2025-10-07 04:54:08,293 - INFO - Successfully saved ED data (751 rows)
+2025-10-07 04:54:08,293 - INFO - Processing 154/503 : EFX - Equifax - 3y
+2025-10-07 04:54:08,920 - INFO - Successfully saved EFX data (751 rows)
+2025-10-07 04:54:08,921 - INFO - Processing 155/503 : EG - Everest Group - 3y
+2025-10-07 04:54:09,448 - INFO - Successfully saved EG data (751 rows)
+2025-10-07 04:54:09,448 - INFO - Processing 156/503 : EIX - Edison International - 3y
+2025-10-07 04:54:10,040 - INFO - Successfully saved EIX data (751 rows)
+2025-10-07 04:54:10,041 - INFO - Processing 157/503 : EL - Estée Lauder Companies (The) - 3y
+2025-10-07 04:54:10,600 - INFO - Successfully saved EL data (751 rows)
+2025-10-07 04:54:10,600 - INFO - Processing 158/503 : ELV - Elevance Health - 3y
+2025-10-07 04:54:11,133 - INFO - Successfully saved ELV data (751 rows)
+2025-10-07 04:54:11,133 - INFO - Processing 159/503 : EMN - Eastman Chemical Company - 3y
+2025-10-07 04:54:11,673 - INFO - Successfully saved EMN data (751 rows)
+2025-10-07 04:54:11,674 - INFO - Processing 160/503 : EMR - Emerson Electric - 3y
+2025-10-07 04:54:12,243 - INFO - Successfully saved EMR data (751 rows)
+2025-10-07 04:54:12,243 - INFO - Processing 161/503 : ENPH - Enphase Energy - 3y
+2025-10-07 04:54:12,737 - INFO - Successfully saved ENPH data (751 rows)
+2025-10-07 04:54:12,737 - INFO - Processing 162/503 : EOG - EOG Resources - 3y
+2025-10-07 04:54:13,336 - INFO - Successfully saved EOG data (751 rows)
+2025-10-07 04:54:13,336 - INFO - Processing 163/503 : EPAM - EPAM Systems - 3y
+2025-10-07 04:54:13,808 - INFO - Successfully saved EPAM data (751 rows)
+2025-10-07 04:54:13,809 - INFO - Processing 164/503 : EQIX - Equinix - 3y
+2025-10-07 04:54:14,342 - INFO - Successfully saved EQIX data (751 rows)
+2025-10-07 04:54:14,343 - INFO - Processing 165/503 : EQR - Equity Residential - 3y
+2025-10-07 04:54:14,901 - INFO - Successfully saved EQR data (751 rows)
+2025-10-07 04:54:14,902 - INFO - Processing 166/503 : EQT - EQT Corporation - 3y
+2025-10-07 04:54:15,461 - INFO - Successfully saved EQT data (751 rows)
+2025-10-07 04:54:15,461 - INFO - Processing 167/503 : ERIE - Erie Indemnity - 3y
+2025-10-07 04:54:16,021 - INFO - Successfully saved ERIE data (751 rows)
+2025-10-07 04:54:16,021 - INFO - Processing 168/503 : ES - Eversource Energy - 3y
+2025-10-07 04:54:16,605 - INFO - Successfully saved ES data (751 rows)
+2025-10-07 04:54:16,606 - INFO - Processing 169/503 : ESS - Essex Property Trust - 3y
+2025-10-07 04:54:17,139 - INFO - Successfully saved ESS data (751 rows)
+2025-10-07 04:54:17,139 - INFO - Processing 170/503 : ETN - Eaton Corporation - 3y
+2025-10-07 04:54:17,723 - INFO - Successfully saved ETN data (751 rows)
+2025-10-07 04:54:17,723 - INFO - Processing 171/503 : ETR - Entergy - 3y
+2025-10-07 04:54:18,323 - INFO - Successfully saved ETR data (751 rows)
+2025-10-07 04:54:18,323 - INFO - Processing 172/503 : EVRG - Evergy - 3y
+2025-10-07 04:54:18,911 - INFO - Successfully saved EVRG data (751 rows)
+2025-10-07 04:54:18,911 - INFO - Processing 173/503 : EW - Edwards Lifesciences - 3y
+2025-10-07 04:54:19,386 - INFO - Successfully saved EW data (751 rows)
+2025-10-07 04:54:19,387 - INFO - Processing 174/503 : EXC - Exelon - 3y
+2025-10-07 04:54:19,928 - INFO - Successfully saved EXC data (751 rows)
+2025-10-07 04:54:19,929 - INFO - Processing 175/503 : EXE - Expand Energy - 3y
+2025-10-07 04:54:20,436 - INFO - Successfully saved EXE data (751 rows)
+2025-10-07 04:54:20,437 - INFO - Processing 176/503 : EXPD - Expeditors International - 3y
+2025-10-07 04:54:20,946 - INFO - Successfully saved EXPD data (751 rows)
+2025-10-07 04:54:20,947 - INFO - Processing 177/503 : EXPE - Expedia Group - 3y
+2025-10-07 04:54:21,456 - INFO - Successfully saved EXPE data (751 rows)
+2025-10-07 04:54:21,457 - INFO - Processing 178/503 : EXR - Extra Space Storage - 3y
+2025-10-07 04:54:22,008 - INFO - Successfully saved EXR data (751 rows)
+2025-10-07 04:54:22,009 - INFO - Processing 179/503 : F - Ford Motor Company - 3y
+2025-10-07 04:54:22,617 - INFO - Successfully saved F data (751 rows)
+2025-10-07 04:54:22,617 - INFO - Processing 180/503 : FANG - Diamondback Energy - 3y
+2025-10-07 04:54:23,201 - INFO - Successfully saved FANG data (751 rows)
+2025-10-07 04:54:23,201 - INFO - Processing 181/503 : FAST - Fastenal - 3y
+2025-10-07 04:54:23,871 - INFO - Successfully saved FAST data (751 rows)
+2025-10-07 04:54:23,871 - INFO - Processing 182/503 : FCX - Freeport-McMoRan - 3y
+2025-10-07 04:54:24,426 - INFO - Successfully saved FCX data (751 rows)
+2025-10-07 04:54:24,426 - INFO - Processing 183/503 : FDS - FactSet - 3y
+2025-10-07 04:54:24,987 - INFO - Successfully saved FDS data (751 rows)
+2025-10-07 04:54:24,987 - INFO - Processing 184/503 : FDX - FedEx - 3y
+2025-10-07 04:54:25,493 - INFO - Successfully saved FDX data (751 rows)
+2025-10-07 04:54:25,493 - INFO - Processing 185/503 : FE - FirstEnergy - 3y
+2025-10-07 04:54:26,042 - INFO - Successfully saved FE data (751 rows)
+2025-10-07 04:54:26,043 - INFO - Processing 186/503 : FFIV - F5, Inc. - 3y
+2025-10-07 04:54:26,569 - INFO - Successfully saved FFIV data (751 rows)
+2025-10-07 04:54:26,570 - INFO - Processing 187/503 : FI - Fiserv - 3y
+2025-10-07 04:54:27,073 - INFO - Successfully saved FI data (751 rows)
+2025-10-07 04:54:27,074 - INFO - Processing 188/503 : FICO - Fair Isaac - 3y
+2025-10-07 04:54:27,611 - INFO - Successfully saved FICO data (751 rows)
+2025-10-07 04:54:27,611 - INFO - Processing 189/503 : FIS - Fidelity National Information Services - 3y
+2025-10-07 04:54:28,128 - INFO - Successfully saved FIS data (751 rows)
+2025-10-07 04:54:28,128 - INFO - Processing 190/503 : FITB - Fifth Third Bancorp - 3y
+2025-10-07 04:54:28,755 - INFO - Successfully saved FITB data (751 rows)
+2025-10-07 04:54:28,756 - INFO - Processing 191/503 : FOX - Fox Corporation (Class B) - 3y
+2025-10-07 04:54:29,263 - INFO - Successfully saved FOX data (751 rows)
+2025-10-07 04:54:29,263 - INFO - Processing 192/503 : FOXA - Fox Corporation (Class A) - 3y
+2025-10-07 04:54:29,772 - INFO - Successfully saved FOXA data (751 rows)
+2025-10-07 04:54:29,772 - INFO - Processing 193/503 : FRT - Federal Realty Investment Trust - 3y
+2025-10-07 04:54:30,402 - INFO - Successfully saved FRT data (751 rows)
+2025-10-07 04:54:30,403 - INFO - Processing 194/503 : FSLR - First Solar - 3y
+2025-10-07 04:54:30,894 - INFO - Successfully saved FSLR data (751 rows)
+2025-10-07 04:54:30,894 - INFO - Processing 195/503 : FTNT - Fortinet - 3y
+2025-10-07 04:54:31,380 - INFO - Successfully saved FTNT data (751 rows)
+2025-10-07 04:54:31,380 - INFO - Processing 196/503 : FTV - Fortive - 3y
+2025-10-07 04:54:31,912 - INFO - Successfully saved FTV data (751 rows)
+2025-10-07 04:54:31,912 - INFO - Processing 197/503 : GD - General Dynamics - 3y
+2025-10-07 04:54:32,470 - INFO - Successfully saved GD data (751 rows)
+2025-10-07 04:54:32,471 - INFO - Processing 198/503 : GDDY - GoDaddy - 3y
+2025-10-07 04:54:32,993 - INFO - Successfully saved GDDY data (751 rows)
+2025-10-07 04:54:32,994 - INFO - Processing 199/503 : GE - GE Aerospace - 3y
+2025-10-07 04:54:33,586 - INFO - Successfully saved GE data (751 rows)
+2025-10-07 04:54:33,586 - INFO - Processing 200/503 : GEHC - GE HealthCare - 3y
+2025-10-07 04:54:34,114 - INFO - Successfully saved GEHC data (703 rows)
+2025-10-07 04:54:34,114 - INFO - Processing 201/503 : GEN - Gen Digital - 3y
+2025-10-07 04:54:34,656 - INFO - Successfully saved GEN data (751 rows)
+2025-10-07 04:54:34,657 - INFO - Processing 202/503 : GEV - GE Vernova - 3y
+2025-10-07 04:54:35,094 - INFO - Successfully saved GEV data (383 rows)
+2025-10-07 04:54:35,094 - INFO - Processing 203/503 : GILD - Gilead Sciences - 3y
+2025-10-07 04:54:35,633 - INFO - Successfully saved GILD data (751 rows)
+2025-10-07 04:54:35,639 - INFO - Processing 204/503 : GIS - General Mills - 3y
+2025-10-07 04:54:36,231 - INFO - Successfully saved GIS data (751 rows)
+2025-10-07 04:54:36,232 - INFO - Processing 205/503 : GL - Globe Life - 3y
+2025-10-07 04:54:36,769 - INFO - Successfully saved GL data (751 rows)
+2025-10-07 04:54:36,769 - INFO - Processing 206/503 : GLW - Corning Inc. - 3y
+2025-10-07 04:54:37,362 - INFO - Successfully saved GLW data (751 rows)
+2025-10-07 04:54:37,363 - INFO - Processing 207/503 : GM - General Motors - 3y
+2025-10-07 04:54:37,901 - INFO - Successfully saved GM data (751 rows)
+2025-10-07 04:54:37,901 - INFO - Processing 208/503 : GNRC - Generac - 3y
+2025-10-07 04:54:38,349 - INFO - Successfully saved GNRC data (751 rows)
+2025-10-07 04:54:38,349 - INFO - Processing 209/503 : GOOG - Alphabet Inc. (Class C) - 3y
+2025-10-07 04:54:38,897 - INFO - Successfully saved GOOG data (751 rows)
+2025-10-07 04:54:38,897 - INFO - Processing 210/503 : GOOGL - Alphabet Inc. (Class A) - 3y
+2025-10-07 04:54:39,554 - INFO - Successfully saved GOOGL data (751 rows)
+2025-10-07 04:54:39,555 - INFO - Processing 211/503 : GPC - Genuine Parts Company - 3y
+2025-10-07 04:54:40,176 - INFO - Successfully saved GPC data (751 rows)
+2025-10-07 04:54:40,177 - INFO - Processing 212/503 : GPN - Global Payments - 3y
+2025-10-07 04:54:40,808 - INFO - Successfully saved GPN data (751 rows)
+2025-10-07 04:54:40,809 - INFO - Processing 213/503 : GRMN - Garmin - 3y
+2025-10-07 04:54:41,371 - INFO - Successfully saved GRMN data (751 rows)
+2025-10-07 04:54:41,372 - INFO - Processing 214/503 : GS - Goldman Sachs - 3y
+2025-10-07 04:54:42,035 - INFO - Successfully saved GS data (751 rows)
+2025-10-07 04:54:42,035 - INFO - Processing 215/503 : GWW - W. W. Grainger - 3y
+2025-10-07 04:54:42,956 - INFO - Successfully saved GWW data (751 rows)
+2025-10-07 04:54:42,956 - INFO - Processing 216/503 : HAL - Halliburton - 3y
+2025-10-07 04:54:44,206 - INFO - Successfully saved HAL data (751 rows)
+2025-10-07 04:54:44,207 - INFO - Processing 217/503 : HAS - Hasbro - 3y
+2025-10-07 04:54:44,795 - INFO - Successfully saved HAS data (751 rows)
+2025-10-07 04:54:44,796 - INFO - Processing 218/503 : HBAN - Huntington Bancshares - 3y
+2025-10-07 04:54:45,360 - INFO - Successfully saved HBAN data (751 rows)
+2025-10-07 04:54:45,360 - INFO - Processing 219/503 : HCA - HCA Healthcare - 3y
+2025-10-07 04:54:45,914 - INFO - Successfully saved HCA data (751 rows)
+2025-10-07 04:54:45,915 - INFO - Processing 220/503 : HD - Home Depot (The) - 3y
+2025-10-07 04:54:46,485 - INFO - Successfully saved HD data (751 rows)
+2025-10-07 04:54:46,486 - INFO - Processing 221/503 : HIG - Hartford (The) - 3y
+2025-10-07 04:54:47,064 - INFO - Successfully saved HIG data (751 rows)
+2025-10-07 04:54:47,065 - INFO - Processing 222/503 : HII - Huntington Ingalls Industries - 3y
+2025-10-07 04:54:47,608 - INFO - Successfully saved HII data (751 rows)
+2025-10-07 04:54:47,608 - INFO - Processing 223/503 : HLT - Hilton Worldwide - 3y
+2025-10-07 04:54:48,145 - INFO - Successfully saved HLT data (751 rows)
+2025-10-07 04:54:48,146 - INFO - Processing 224/503 : HOLX - Hologic - 3y
+2025-10-07 04:54:48,670 - INFO - Successfully saved HOLX data (751 rows)
+2025-10-07 04:54:48,671 - INFO - Processing 225/503 : HON - Honeywell - 3y
+2025-10-07 04:54:49,269 - INFO - Successfully saved HON data (751 rows)
+2025-10-07 04:54:49,270 - INFO - Processing 226/503 : HPE - Hewlett Packard Enterprise - 3y
+2025-10-07 04:54:49,798 - INFO - Successfully saved HPE data (751 rows)
+2025-10-07 04:54:49,798 - INFO - Processing 227/503 : HPQ - HP Inc. - 3y
+2025-10-07 04:54:50,497 - INFO - Successfully saved HPQ data (751 rows)
+2025-10-07 04:54:50,498 - INFO - Processing 228/503 : HRL - Hormel Foods - 3y
+2025-10-07 04:54:51,097 - INFO - Successfully saved HRL data (751 rows)
+2025-10-07 04:54:51,097 - INFO - Processing 229/503 : HSIC - Henry Schein - 3y
+2025-10-07 04:54:51,614 - INFO - Successfully saved HSIC data (751 rows)
+2025-10-07 04:54:51,614 - INFO - Processing 230/503 : HST - Host Hotels & Resorts - 3y
+2025-10-07 04:54:52,223 - INFO - Successfully saved HST data (751 rows)
+2025-10-07 04:54:52,223 - INFO - Processing 231/503 : HSY - Hershey Company (The) - 3y
+2025-10-07 04:54:52,779 - INFO - Successfully saved HSY data (751 rows)
+2025-10-07 04:54:52,779 - INFO - Processing 232/503 : HUBB - Hubbell Incorporated - 3y
+2025-10-07 04:54:53,423 - INFO - Successfully saved HUBB data (751 rows)
+2025-10-07 04:54:53,424 - INFO - Processing 233/503 : HUM - Humana - 3y
+2025-10-07 04:54:54,082 - INFO - Successfully saved HUM data (751 rows)
+2025-10-07 04:54:54,083 - INFO - Processing 234/503 : HWM - Howmet Aerospace - 3y
+2025-10-07 04:54:54,616 - INFO - Successfully saved HWM data (751 rows)
+2025-10-07 04:54:54,617 - INFO - Processing 235/503 : IBM - IBM - 3y
+2025-10-07 04:54:55,214 - INFO - Successfully saved IBM data (751 rows)
+2025-10-07 04:54:55,214 - INFO - Processing 236/503 : ICE - Intercontinental Exchange - 3y
+2025-10-07 04:54:55,752 - INFO - Successfully saved ICE data (751 rows)
+2025-10-07 04:54:55,753 - INFO - Processing 237/503 : IDXX - Idexx Laboratories - 3y
+2025-10-07 04:54:56,225 - INFO - Successfully saved IDXX data (751 rows)
+2025-10-07 04:54:56,225 - INFO - Processing 238/503 : IEX - IDEX Corporation - 3y
+2025-10-07 04:54:56,744 - INFO - Successfully saved IEX data (751 rows)
+2025-10-07 04:54:56,745 - INFO - Processing 239/503 : IFF - International Flavors & Fragrances - 3y
+2025-10-07 04:54:57,324 - INFO - Successfully saved IFF data (751 rows)
+2025-10-07 04:54:57,325 - INFO - Processing 240/503 : INCY - Incyte - 3y
+2025-10-07 04:54:57,842 - INFO - Successfully saved INCY data (751 rows)
+2025-10-07 04:54:57,843 - INFO - Processing 241/503 : INTC - Intel - 3y
+2025-10-07 04:54:58,386 - INFO - Successfully saved INTC data (751 rows)
+2025-10-07 04:54:58,386 - INFO - Processing 242/503 : INTU - Intuit - 3y
+2025-10-07 04:54:58,884 - INFO - Successfully saved INTU data (751 rows)
+2025-10-07 04:54:58,884 - INFO - Processing 243/503 : INVH - Invitation Homes - 3y
+2025-10-07 04:54:59,413 - INFO - Successfully saved INVH data (751 rows)
+2025-10-07 04:54:59,414 - INFO - Processing 244/503 : IP - International Paper - 3y
+2025-10-07 04:55:00,016 - INFO - Successfully saved IP data (751 rows)
+2025-10-07 04:55:00,016 - INFO - Processing 245/503 : IPG - Interpublic Group of Companies (The) - 3y
+2025-10-07 04:55:00,556 - INFO - Successfully saved IPG data (751 rows)
+2025-10-07 04:55:00,557 - INFO - Processing 246/503 : IQV - IQVIA - 3y
+2025-10-07 04:55:01,111 - INFO - Successfully saved IQV data (751 rows)
+2025-10-07 04:55:01,111 - INFO - Processing 247/503 : IR - Ingersoll Rand - 3y
+2025-10-07 04:55:01,595 - INFO - Successfully saved IR data (751 rows)
+2025-10-07 04:55:01,596 - INFO - Processing 248/503 : IRM - Iron Mountain - 3y
+2025-10-07 04:55:02,184 - INFO - Successfully saved IRM data (751 rows)
+2025-10-07 04:55:02,184 - INFO - Processing 249/503 : ISRG - Intuitive Surgical - 3y
+2025-10-07 04:55:02,687 - INFO - Successfully saved ISRG data (751 rows)
+2025-10-07 04:55:02,688 - INFO - Processing 250/503 : IT - Gartner - 3y
+2025-10-07 04:55:03,178 - INFO - Successfully saved IT data (751 rows)
+2025-10-07 04:55:03,178 - INFO - Processing 251/503 : ITW - Illinois Tool Works - 3y
+2025-10-07 04:55:03,770 - INFO - Successfully saved ITW data (751 rows)
+2025-10-07 04:55:03,770 - INFO - Processing 252/503 : IVZ - Invesco - 3y
+2025-10-07 04:55:04,329 - INFO - Successfully saved IVZ data (751 rows)
+2025-10-07 04:55:04,329 - INFO - Processing 253/503 : J - Jacobs Solutions - 3y
+2025-10-07 04:55:04,945 - INFO - Successfully saved J data (751 rows)
+2025-10-07 04:55:04,946 - INFO - Processing 254/503 : JBHT - J.B. Hunt - 3y
+2025-10-07 04:55:05,471 - INFO - Successfully saved JBHT data (751 rows)
+2025-10-07 04:55:05,472 - INFO - Processing 255/503 : JBL - Jabil - 3y
+2025-10-07 04:55:06,067 - INFO - Successfully saved JBL data (751 rows)
+2025-10-07 04:55:06,068 - INFO - Processing 256/503 : JCI - Johnson Controls - 3y
+2025-10-07 04:55:06,766 - INFO - Successfully saved JCI data (751 rows)
+2025-10-07 04:55:06,767 - INFO - Processing 257/503 : JKHY - Jack Henry & Associates - 3y
+2025-10-07 04:55:07,369 - INFO - Successfully saved JKHY data (751 rows)
+2025-10-07 04:55:07,370 - INFO - Processing 258/503 : JNJ - Johnson & Johnson - 3y
+2025-10-07 04:55:07,958 - INFO - Successfully saved JNJ data (751 rows)
+2025-10-07 04:55:07,958 - INFO - Processing 259/503 : JPM - JPMorgan Chase - 3y
+2025-10-07 04:55:08,477 - INFO - Successfully saved JPM data (751 rows)
+2025-10-07 04:55:08,478 - INFO - Processing 260/503 : K - Kellanova - 3y
+2025-10-07 04:55:09,089 - INFO - Successfully saved K data (751 rows)
+2025-10-07 04:55:09,089 - INFO - Processing 261/503 : KDP - Keurig Dr Pepper - 3y
+2025-10-07 04:55:09,594 - INFO - Successfully saved KDP data (751 rows)
+2025-10-07 04:55:09,595 - INFO - Processing 262/503 : KEY - KeyCorp - 3y
+2025-10-07 04:55:10,121 - INFO - Successfully saved KEY data (751 rows)
+2025-10-07 04:55:10,122 - INFO - Processing 263/503 : KEYS - Keysight Technologies - 3y
+2025-10-07 04:55:10,623 - INFO - Successfully saved KEYS data (751 rows)
+2025-10-07 04:55:10,624 - INFO - Processing 264/503 : KHC - Kraft Heinz - 3y
+2025-10-07 04:55:11,157 - INFO - Successfully saved KHC data (751 rows)
+2025-10-07 04:55:11,157 - INFO - Processing 265/503 : KIM - Kimco Realty - 3y
+2025-10-07 04:55:11,709 - INFO - Successfully saved KIM data (751 rows)
+2025-10-07 04:55:11,709 - INFO - Processing 266/503 : KKR - KKR & Co. - 3y
+2025-10-07 04:55:12,224 - INFO - Successfully saved KKR data (751 rows)
+2025-10-07 04:55:12,225 - INFO - Processing 267/503 : KLAC - KLA Corporation - 3y
+2025-10-07 04:55:12,742 - INFO - Successfully saved KLAC data (751 rows)
+2025-10-07 04:55:12,742 - INFO - Processing 268/503 : KMB - Kimberly-Clark - 3y
+2025-10-07 04:55:13,321 - INFO - Successfully saved KMB data (751 rows)
+2025-10-07 04:55:13,322 - INFO - Processing 269/503 : KMI - Kinder Morgan - 3y
+2025-10-07 04:55:13,877 - INFO - Successfully saved KMI data (751 rows)
+2025-10-07 04:55:13,878 - INFO - Processing 270/503 : KMX - CarMax - 3y
+2025-10-07 04:55:14,334 - INFO - Successfully saved KMX data (751 rows)
+2025-10-07 04:55:14,334 - INFO - Processing 271/503 : KO - Coca-Cola Company (The) - 3y
+2025-10-07 04:55:14,955 - INFO - Successfully saved KO data (751 rows)
+2025-10-07 04:55:14,956 - INFO - Processing 272/503 : KR - Kroger - 3y
+2025-10-07 04:55:15,515 - INFO - Successfully saved KR data (751 rows)
+2025-10-07 04:55:15,515 - INFO - Processing 273/503 : KVUE - Kenvue - 3y
+2025-10-07 04:55:16,003 - INFO - Successfully saved KVUE data (608 rows)
+2025-10-07 04:55:16,003 - INFO - Processing 274/503 : L - Loews Corporation - 3y
+2025-10-07 04:55:16,573 - INFO - Successfully saved L data (751 rows)
+2025-10-07 04:55:16,574 - INFO - Processing 275/503 : LDOS - Leidos - 3y
+2025-10-07 04:55:17,115 - INFO - Successfully saved LDOS data (751 rows)
+2025-10-07 04:55:17,116 - INFO - Processing 276/503 : LEN - Lennar - 3y
+2025-10-07 04:55:18,123 - INFO - Successfully saved LEN data (751 rows)
+2025-10-07 04:55:18,124 - INFO - Processing 277/503 : LH - Labcorp - 3y
+2025-10-07 04:55:18,731 - INFO - Successfully saved LH data (751 rows)
+2025-10-07 04:55:18,732 - INFO - Processing 278/503 : LHX - L3Harris - 3y
+2025-10-07 04:55:19,316 - INFO - Successfully saved LHX data (751 rows)
+2025-10-07 04:55:19,317 - INFO - Processing 279/503 : LII - Lennox International - 3y
+2025-10-07 04:55:19,860 - INFO - Successfully saved LII data (751 rows)
+2025-10-07 04:55:19,860 - INFO - Processing 280/503 : LIN - Linde plc - 3y
+2025-10-07 04:55:20,467 - INFO - Successfully saved LIN data (751 rows)
+2025-10-07 04:55:20,468 - INFO - Processing 281/503 : LKQ - LKQ Corporation - 3y
+2025-10-07 04:55:20,976 - INFO - Successfully saved LKQ data (751 rows)
+2025-10-07 04:55:20,977 - INFO - Processing 282/503 : LLY - Lilly (Eli) - 3y
+2025-10-07 04:55:21,583 - INFO - Successfully saved LLY data (751 rows)
+2025-10-07 04:55:21,584 - INFO - Processing 283/503 : LMT - Lockheed Martin - 3y
+2025-10-07 04:55:22,190 - INFO - Successfully saved LMT data (751 rows)
+2025-10-07 04:55:22,191 - INFO - Processing 284/503 : LNT - Alliant Energy - 3y
+2025-10-07 04:55:22,755 - INFO - Successfully saved LNT data (751 rows)
+2025-10-07 04:55:22,755 - INFO - Processing 285/503 : LOW - Lowe's - 3y
+2025-10-07 04:55:23,324 - INFO - Successfully saved LOW data (751 rows)
+2025-10-07 04:55:23,325 - INFO - Processing 286/503 : LRCX - Lam Research - 3y
+2025-10-07 04:55:23,857 - INFO - Successfully saved LRCX data (751 rows)
+2025-10-07 04:55:23,857 - INFO - Processing 287/503 : LULU - Lululemon Athletica - 3y
+2025-10-07 04:55:24,363 - INFO - Successfully saved LULU data (751 rows)
+2025-10-07 04:55:24,364 - INFO - Processing 288/503 : LUV - Southwest Airlines - 3y
+2025-10-07 04:55:24,899 - INFO - Successfully saved LUV data (751 rows)
+2025-10-07 04:55:24,899 - INFO - Processing 289/503 : LVS - Las Vegas Sands - 3y
+2025-10-07 04:55:25,425 - INFO - Successfully saved LVS data (751 rows)
+2025-10-07 04:55:25,426 - INFO - Processing 290/503 : LW - Lamb Weston - 3y
+2025-10-07 04:55:25,946 - INFO - Successfully saved LW data (751 rows)
+2025-10-07 04:55:25,946 - INFO - Processing 291/503 : LYB - LyondellBasell - 3y
+2025-10-07 04:55:26,495 - INFO - Successfully saved LYB data (751 rows)
+2025-10-07 04:55:26,495 - INFO - Processing 292/503 : LYV - Live Nation Entertainment - 3y
+2025-10-07 04:55:27,004 - INFO - Successfully saved LYV data (751 rows)
+2025-10-07 04:55:27,005 - INFO - Processing 293/503 : MA - Mastercard - 3y
+2025-10-07 04:55:27,562 - INFO - Successfully saved MA data (751 rows)
+2025-10-07 04:55:27,563 - INFO - Processing 294/503 : MAA - Mid-America Apartment Communities - 3y
+2025-10-07 04:55:28,150 - INFO - Successfully saved MAA data (751 rows)
+2025-10-07 04:55:28,150 - INFO - Processing 295/503 : MAR - Marriott International - 3y
+2025-10-07 04:55:28,676 - INFO - Successfully saved MAR data (751 rows)
+2025-10-07 04:55:28,677 - INFO - Processing 296/503 : MAS - Masco - 3y
+2025-10-07 04:55:29,226 - INFO - Successfully saved MAS data (751 rows)
+2025-10-07 04:55:29,226 - INFO - Processing 297/503 : MCD - McDonald's - 3y
+2025-10-07 04:55:29,800 - INFO - Successfully saved MCD data (751 rows)
+2025-10-07 04:55:29,801 - INFO - Processing 298/503 : MCHP - Microchip Technology - 3y
+2025-10-07 04:55:30,333 - INFO - Successfully saved MCHP data (751 rows)
+2025-10-07 04:55:30,333 - INFO - Processing 299/503 : MCK - McKesson Corporation - 3y
+2025-10-07 04:55:30,862 - INFO - Successfully saved MCK data (751 rows)
+2025-10-07 04:55:30,862 - INFO - Processing 300/503 : MCO - Moody's Corporation - 3y
+2025-10-07 04:55:31,404 - INFO - Successfully saved MCO data (751 rows)
+2025-10-07 04:55:31,405 - INFO - Processing 301/503 : MDLZ - Mondelez International - 3y
+2025-10-07 04:55:31,945 - INFO - Successfully saved MDLZ data (751 rows)
+2025-10-07 04:55:31,946 - INFO - Processing 302/503 : MDT - Medtronic - 3y
+2025-10-07 04:55:32,504 - INFO - Successfully saved MDT data (751 rows)
+2025-10-07 04:55:32,505 - INFO - Processing 303/503 : MET - MetLife - 3y
+2025-10-07 04:55:33,069 - INFO - Successfully saved MET data (751 rows)
+2025-10-07 04:55:33,070 - INFO - Processing 304/503 : META - Meta Platforms - 3y
+2025-10-07 04:55:33,562 - INFO - Successfully saved META data (751 rows)
+2025-10-07 04:55:33,562 - INFO - Processing 305/503 : MGM - MGM Resorts - 3y
+2025-10-07 04:55:34,081 - INFO - Successfully saved MGM data (751 rows)
+2025-10-07 04:55:34,081 - INFO - Processing 306/503 : MHK - Mohawk Industries - 3y
+2025-10-07 04:55:34,563 - INFO - Successfully saved MHK data (751 rows)
+2025-10-07 04:55:34,563 - INFO - Processing 307/503 : MKC - McCormick & Company - 3y
+2025-10-07 04:55:35,082 - INFO - Successfully saved MKC data (751 rows)
+2025-10-07 04:55:35,082 - INFO - Processing 308/503 : MKTX - MarketAxess - 3y
+2025-10-07 04:55:35,620 - INFO - Successfully saved MKTX data (751 rows)
+2025-10-07 04:55:35,621 - INFO - Processing 309/503 : MLM - Martin Marietta Materials - 3y
+2025-10-07 04:55:36,181 - INFO - Successfully saved MLM data (751 rows)
+2025-10-07 04:55:36,181 - INFO - Processing 310/503 : MMC - Marsh McLennan - 3y
+2025-10-07 04:55:36,763 - INFO - Successfully saved MMC data (751 rows)
+2025-10-07 04:55:36,763 - INFO - Processing 311/503 : MMM - 3M - 3y
+2025-10-07 04:55:37,365 - INFO - Successfully saved MMM data (751 rows)
+2025-10-07 04:55:37,365 - INFO - Processing 312/503 : MNST - Monster Beverage - 3y
+2025-10-07 04:55:37,850 - INFO - Successfully saved MNST data (751 rows)
+2025-10-07 04:55:37,850 - INFO - Processing 313/503 : MO - Altria - 3y
+2025-10-07 04:55:38,423 - INFO - Successfully saved MO data (751 rows)
+2025-10-07 04:55:38,423 - INFO - Processing 314/503 : MOH - Molina Healthcare - 3y
+2025-10-07 04:55:38,876 - INFO - Successfully saved MOH data (751 rows)
+2025-10-07 04:55:38,877 - INFO - Processing 315/503 : MOS - Mosaic Company (The) - 3y
+2025-10-07 04:55:39,444 - INFO - Successfully saved MOS data (751 rows)
+2025-10-07 04:55:39,445 - INFO - Processing 316/503 : MPC - Marathon Petroleum - 3y
+2025-10-07 04:55:39,953 - INFO - Successfully saved MPC data (751 rows)
+2025-10-07 04:55:39,954 - INFO - Processing 317/503 : MPWR - Monolithic Power Systems - 3y
+2025-10-07 04:55:40,492 - INFO - Successfully saved MPWR data (751 rows)
+2025-10-07 04:55:40,492 - INFO - Processing 318/503 : MRK - Merck & Co. - 3y
+2025-10-07 04:55:41,122 - INFO - Successfully saved MRK data (751 rows)
+2025-10-07 04:55:41,123 - INFO - Processing 319/503 : MRNA - Moderna - 3y
+2025-10-07 04:55:41,577 - INFO - Successfully saved MRNA data (751 rows)
+2025-10-07 04:55:41,577 - INFO - Processing 320/503 : MS - Morgan Stanley - 3y
+2025-10-07 04:55:42,111 - INFO - Successfully saved MS data (751 rows)
+2025-10-07 04:55:42,111 - INFO - Processing 321/503 : MSCI - MSCI Inc. - 3y
+2025-10-07 04:55:42,675 - INFO - Successfully saved MSCI data (751 rows)
+2025-10-07 04:55:42,676 - INFO - Processing 322/503 : MSFT - Microsoft - 3y
+2025-10-07 04:55:43,204 - INFO - Successfully saved MSFT data (751 rows)
+2025-10-07 04:55:43,204 - INFO - Processing 323/503 : MSI - Motorola Solutions - 3y
+2025-10-07 04:55:43,787 - INFO - Successfully saved MSI data (751 rows)
+2025-10-07 04:55:43,787 - INFO - Processing 324/503 : MTB - M&T Bank - 3y
+2025-10-07 04:55:44,343 - INFO - Successfully saved MTB data (751 rows)
+2025-10-07 04:55:44,343 - INFO - Processing 325/503 : MTCH - Match Group - 3y
+2025-10-07 04:55:44,909 - INFO - Successfully saved MTCH data (751 rows)
+2025-10-07 04:55:44,909 - INFO - Processing 326/503 : MTD - Mettler Toledo - 3y
+2025-10-07 04:55:45,325 - INFO - Successfully saved MTD data (751 rows)
+2025-10-07 04:55:45,325 - INFO - Processing 327/503 : MU - Micron Technology - 3y
+2025-10-07 04:55:45,842 - INFO - Successfully saved MU data (751 rows)
+2025-10-07 04:55:45,843 - INFO - Processing 328/503 : NCLH - Norwegian Cruise Line Holdings - 3y
+2025-10-07 04:55:46,274 - INFO - Successfully saved NCLH data (751 rows)
+2025-10-07 04:55:46,275 - INFO - Processing 329/503 : NDAQ - Nasdaq, Inc. - 3y
+2025-10-07 04:55:46,769 - INFO - Successfully saved NDAQ data (751 rows)
+2025-10-07 04:55:46,770 - INFO - Processing 330/503 : NDSN - Nordson Corporation - 3y
+2025-10-07 04:55:47,287 - INFO - Successfully saved NDSN data (751 rows)
+2025-10-07 04:55:47,288 - INFO - Processing 331/503 : NEE - NextEra Energy - 3y
+2025-10-07 04:55:47,870 - INFO - Successfully saved NEE data (751 rows)
+2025-10-07 04:55:47,870 - INFO - Processing 332/503 : NEM - Newmont - 3y
+2025-10-07 04:55:48,449 - INFO - Successfully saved NEM data (751 rows)
+2025-10-07 04:55:48,449 - INFO - Processing 333/503 : NFLX - Netflix - 3y
+2025-10-07 04:55:49,161 - INFO - Successfully saved NFLX data (751 rows)
+2025-10-07 04:55:49,161 - INFO - Processing 334/503 : NI - NiSource - 3y
+2025-10-07 04:55:49,724 - INFO - Successfully saved NI data (751 rows)
+2025-10-07 04:55:49,725 - INFO - Processing 335/503 : NKE - Nike, Inc. - 3y
+2025-10-07 04:55:50,298 - INFO - Successfully saved NKE data (751 rows)
+2025-10-07 04:55:50,299 - INFO - Processing 336/503 : NOC - Northrop Grumman - 3y
+2025-10-07 04:55:50,922 - INFO - Successfully saved NOC data (751 rows)
+2025-10-07 04:55:50,923 - INFO - Processing 337/503 : NOW - ServiceNow - 3y
+2025-10-07 04:55:51,396 - INFO - Successfully saved NOW data (751 rows)
+2025-10-07 04:55:51,396 - INFO - Processing 338/503 : NRG - NRG Energy - 3y
+2025-10-07 04:55:51,935 - INFO - Successfully saved NRG data (751 rows)
+2025-10-07 04:55:51,936 - INFO - Processing 339/503 : NSC - Norfolk Southern - 3y
+2025-10-07 04:55:52,504 - INFO - Successfully saved NSC data (751 rows)
+2025-10-07 04:55:52,504 - INFO - Processing 340/503 : NTAP - NetApp - 3y
+2025-10-07 04:55:53,024 - INFO - Successfully saved NTAP data (751 rows)
+2025-10-07 04:55:53,025 - INFO - Processing 341/503 : NTRS - Northern Trust - 3y
+2025-10-07 04:55:53,580 - INFO - Successfully saved NTRS data (751 rows)
+2025-10-07 04:55:53,581 - INFO - Processing 342/503 : NUE - Nucor - 3y
+2025-10-07 04:55:54,101 - INFO - Successfully saved NUE data (751 rows)
+2025-10-07 04:55:54,102 - INFO - Processing 343/503 : NVDA - Nvidia - 3y
+2025-10-07 04:55:54,591 - INFO - Successfully saved NVDA data (751 rows)
+2025-10-07 04:55:54,592 - INFO - Processing 344/503 : NVR - NVR, Inc. - 3y
+2025-10-07 04:55:55,033 - INFO - Successfully saved NVR data (751 rows)
+2025-10-07 04:55:55,033 - INFO - Processing 345/503 : NWS - News Corp (Class B) - 3y
+2025-10-07 04:55:55,576 - INFO - Successfully saved NWS data (751 rows)
+2025-10-07 04:55:55,576 - INFO - Processing 346/503 : NWSA - News Corp (Class A) - 3y
+2025-10-07 04:55:56,083 - INFO - Successfully saved NWSA data (751 rows)
+2025-10-07 04:55:56,083 - INFO - Processing 347/503 : NXPI - NXP Semiconductors - 3y
+2025-10-07 04:55:56,638 - INFO - Successfully saved NXPI data (751 rows)
+2025-10-07 04:55:56,638 - INFO - Processing 348/503 : O - Realty Income - 3y
+2025-10-07 04:55:57,173 - INFO - Successfully saved O data (751 rows)
+2025-10-07 04:55:57,174 - INFO - Processing 349/503 : ODFL - Old Dominion - 3y
+2025-10-07 04:55:57,666 - INFO - Successfully saved ODFL data (751 rows)
+2025-10-07 04:55:57,666 - INFO - Processing 350/503 : OKE - Oneok - 3y
+2025-10-07 04:55:58,218 - INFO - Successfully saved OKE data (751 rows)
+2025-10-07 04:55:58,219 - INFO - Processing 351/503 : OMC - Omnicom Group - 3y
+2025-10-07 04:55:58,774 - INFO - Successfully saved OMC data (751 rows)
+2025-10-07 04:55:58,774 - INFO - Processing 352/503 : ON - ON Semiconductor - 3y
+2025-10-07 04:55:59,254 - INFO - Successfully saved ON data (751 rows)
+2025-10-07 04:55:59,254 - INFO - Processing 353/503 : ORCL - Oracle Corporation - 3y
+2025-10-07 04:55:59,757 - INFO - Successfully saved ORCL data (751 rows)
+2025-10-07 04:55:59,758 - INFO - Processing 354/503 : ORLY - O’Reilly Automotive - 3y
+2025-10-07 04:56:00,269 - INFO - Successfully saved ORLY data (751 rows)
+2025-10-07 04:56:00,270 - INFO - Processing 355/503 : OTIS - Otis Worldwide - 3y
+2025-10-07 04:56:00,743 - INFO - Successfully saved OTIS data (751 rows)
+2025-10-07 04:56:00,744 - INFO - Processing 356/503 : OXY - Occidental Petroleum - 3y
+2025-10-07 04:56:01,295 - INFO - Successfully saved OXY data (751 rows)
+2025-10-07 04:56:01,295 - INFO - Processing 357/503 : PANW - Palo Alto Networks - 3y
+2025-10-07 04:56:01,788 - INFO - Successfully saved PANW data (751 rows)
+2025-10-07 04:56:01,788 - INFO - Processing 358/503 : PAYC - Paycom - 3y
+2025-10-07 04:56:02,262 - INFO - Successfully saved PAYC data (751 rows)
+2025-10-07 04:56:02,263 - INFO - Processing 359/503 : PAYX - Paychex - 3y
+2025-10-07 04:56:02,819 - INFO - Successfully saved PAYX data (751 rows)
+2025-10-07 04:56:02,820 - INFO - Processing 360/503 : PCAR - Paccar - 3y
+2025-10-07 04:56:03,376 - INFO - Successfully saved PCAR data (751 rows)
+2025-10-07 04:56:03,377 - INFO - Processing 361/503 : PCG - PG&E Corporation - 3y
+2025-10-07 04:56:03,905 - INFO - Successfully saved PCG data (751 rows)
+2025-10-07 04:56:03,906 - INFO - Processing 362/503 : PEG - Public Service Enterprise Group - 3y
+2025-10-07 04:56:04,489 - INFO - Successfully saved PEG data (751 rows)
+2025-10-07 04:56:04,489 - INFO - Processing 363/503 : PEP - PepsiCo - 3y
+2025-10-07 04:56:05,045 - INFO - Successfully saved PEP data (751 rows)
+2025-10-07 04:56:05,046 - INFO - Processing 364/503 : PFE - Pfizer - 3y
+2025-10-07 04:56:05,637 - INFO - Successfully saved PFE data (751 rows)
+2025-10-07 04:56:05,638 - INFO - Processing 365/503 : PFG - Principal Financial Group - 3y
+2025-10-07 04:56:06,162 - INFO - Successfully saved PFG data (751 rows)
+2025-10-07 04:56:06,163 - INFO - Processing 366/503 : PG - Procter & Gamble - 3y
+2025-10-07 04:56:06,735 - INFO - Successfully saved PG data (751 rows)
+2025-10-07 04:56:06,735 - INFO - Processing 367/503 : PGR - Progressive Corporation - 3y
+2025-10-07 04:56:07,300 - INFO - Successfully saved PGR data (751 rows)
+2025-10-07 04:56:07,300 - INFO - Processing 368/503 : PH - Parker Hannifin - 3y
+2025-10-07 04:56:07,876 - INFO - Successfully saved PH data (751 rows)
+2025-10-07 04:56:07,877 - INFO - Processing 369/503 : PHM - PulteGroup - 3y
+2025-10-07 04:56:08,443 - INFO - Successfully saved PHM data (751 rows)
+2025-10-07 04:56:08,443 - INFO - Processing 370/503 : PKG - Packaging Corporation of America - 3y
+2025-10-07 04:56:08,960 - INFO - Successfully saved PKG data (751 rows)
+2025-10-07 04:56:08,961 - INFO - Processing 371/503 : PLD - Prologis - 3y
+2025-10-07 04:56:09,494 - INFO - Successfully saved PLD data (751 rows)
+2025-10-07 04:56:09,495 - INFO - Processing 372/503 : PLTR - Palantir Technologies - 3y
+2025-10-07 04:56:09,968 - INFO - Successfully saved PLTR data (751 rows)
+2025-10-07 04:56:09,969 - INFO - Processing 373/503 : PM - Philip Morris International - 3y
+2025-10-07 04:56:10,545 - INFO - Successfully saved PM data (751 rows)
+2025-10-07 04:56:10,546 - INFO - Processing 374/503 : PNC - PNC Financial Services - 3y
+2025-10-07 04:56:11,145 - INFO - Successfully saved PNC data (751 rows)
+2025-10-07 04:56:11,146 - INFO - Processing 375/503 : PNR - Pentair - 3y
+2025-10-07 04:56:11,739 - INFO - Successfully saved PNR data (751 rows)
+2025-10-07 04:56:11,739 - INFO - Processing 376/503 : PNW - Pinnacle West Capital - 3y
+2025-10-07 04:56:12,281 - INFO - Successfully saved PNW data (751 rows)
+2025-10-07 04:56:12,281 - INFO - Processing 377/503 : PODD - Insulet Corporation - 3y
+2025-10-07 04:56:12,754 - INFO - Successfully saved PODD data (751 rows)
+2025-10-07 04:56:12,755 - INFO - Processing 378/503 : POOL - Pool Corporation - 3y
+2025-10-07 04:56:13,271 - INFO - Successfully saved POOL data (751 rows)
+2025-10-07 04:56:13,271 - INFO - Processing 379/503 : PPG - PPG Industries - 3y
+2025-10-07 04:56:13,800 - INFO - Successfully saved PPG data (751 rows)
+2025-10-07 04:56:13,801 - INFO - Processing 380/503 : PPL - PPL Corporation - 3y
+2025-10-07 04:56:14,349 - INFO - Successfully saved PPL data (751 rows)
+2025-10-07 04:56:14,349 - INFO - Processing 381/503 : PRU - Prudential Financial - 3y
+2025-10-07 04:56:14,887 - INFO - Successfully saved PRU data (751 rows)
+2025-10-07 04:56:14,887 - INFO - Processing 382/503 : PSA - Public Storage - 3y
+2025-10-07 04:56:15,463 - INFO - Successfully saved PSA data (751 rows)
+2025-10-07 04:56:15,463 - INFO - Processing 383/503 : PSKY - Paramount Skydance Corporation - 3y
+2025-10-07 04:56:15,958 - INFO - Successfully saved PSKY data (751 rows)
+2025-10-07 04:56:15,959 - INFO - Processing 384/503 : PSX - Phillips 66 - 3y
+2025-10-07 04:56:16,439 - INFO - Successfully saved PSX data (751 rows)
+2025-10-07 04:56:16,439 - INFO - Processing 385/503 : PTC - PTC Inc. - 3y
+2025-10-07 04:56:16,912 - INFO - Successfully saved PTC data (751 rows)
+2025-10-07 04:56:16,913 - INFO - Processing 386/503 : PWR - Quanta Services - 3y
+2025-10-07 04:56:17,458 - INFO - Successfully saved PWR data (751 rows)
+2025-10-07 04:56:17,459 - INFO - Processing 387/503 : PYPL - PayPal - 3y
+2025-10-07 04:56:17,961 - INFO - Successfully saved PYPL data (751 rows)
+2025-10-07 04:56:17,961 - INFO - Processing 388/503 : QCOM - Qualcomm - 3y
+2025-10-07 04:56:18,498 - INFO - Successfully saved QCOM data (751 rows)
+2025-10-07 04:56:18,498 - INFO - Processing 389/503 : RCL - Royal Caribbean Group - 3y
+2025-10-07 04:56:19,036 - INFO - Successfully saved RCL data (751 rows)
+2025-10-07 04:56:19,036 - INFO - Processing 390/503 : REG - Regency Centers - 3y
+2025-10-07 04:56:19,623 - INFO - Successfully saved REG data (751 rows)
+2025-10-07 04:56:19,624 - INFO - Processing 391/503 : REGN - Regeneron Pharmaceuticals - 3y
+2025-10-07 04:56:20,150 - INFO - Successfully saved REGN data (751 rows)
+2025-10-07 04:56:20,151 - INFO - Processing 392/503 : RF - Regions Financial Corporation - 3y
+2025-10-07 04:56:20,714 - INFO - Successfully saved RF data (751 rows)
+2025-10-07 04:56:20,714 - INFO - Processing 393/503 : RJF - Raymond James Financial - 3y
+2025-10-07 04:56:21,298 - INFO - Successfully saved RJF data (751 rows)
+2025-10-07 04:56:21,298 - INFO - Processing 394/503 : RL - Ralph Lauren Corporation - 3y
+2025-10-07 04:56:21,836 - INFO - Successfully saved RL data (751 rows)
+2025-10-07 04:56:21,836 - INFO - Processing 395/503 : RMD - ResMed - 3y
+2025-10-07 04:56:22,370 - INFO - Successfully saved RMD data (751 rows)
+2025-10-07 04:56:22,371 - INFO - Processing 396/503 : ROK - Rockwell Automation - 3y
+2025-10-07 04:56:22,962 - INFO - Successfully saved ROK data (751 rows)
+2025-10-07 04:56:22,962 - INFO - Processing 397/503 : ROL - Rollins, Inc. - 3y
+2025-10-07 04:56:23,510 - INFO - Successfully saved ROL data (751 rows)
+2025-10-07 04:56:23,510 - INFO - Processing 398/503 : ROP - Roper Technologies - 3y
+2025-10-07 04:56:24,024 - INFO - Successfully saved ROP data (751 rows)
+2025-10-07 04:56:24,024 - INFO - Processing 399/503 : ROST - Ross Stores - 3y
+2025-10-07 04:56:24,589 - INFO - Successfully saved ROST data (751 rows)
+2025-10-07 04:56:24,590 - INFO - Processing 400/503 : RSG - Republic Services - 3y
+2025-10-07 04:56:25,138 - INFO - Successfully saved RSG data (751 rows)
+2025-10-07 04:56:25,139 - INFO - Processing 401/503 : RTX - RTX Corporation - 3y
+2025-10-07 04:56:25,686 - INFO - Successfully saved RTX data (751 rows)
+2025-10-07 04:56:25,687 - INFO - Processing 402/503 : RVTY - Revvity - 3y
+2025-10-07 04:56:26,201 - INFO - Successfully saved RVTY data (751 rows)
+2025-10-07 04:56:26,202 - INFO - Processing 403/503 : SBAC - SBA Communications - 3y
+2025-10-07 04:56:26,695 - INFO - Successfully saved SBAC data (751 rows)
+2025-10-07 04:56:26,695 - INFO - Processing 404/503 : SBUX - Starbucks - 3y
+2025-10-07 04:56:27,216 - INFO - Successfully saved SBUX data (751 rows)
+2025-10-07 04:56:27,216 - INFO - Processing 405/503 : SCHW - Charles Schwab Corporation - 3y
+2025-10-07 04:56:27,752 - INFO - Successfully saved SCHW data (751 rows)
+2025-10-07 04:56:27,752 - INFO - Processing 406/503 : SHW - Sherwin-Williams - 3y
+2025-10-07 04:56:28,326 - INFO - Successfully saved SHW data (751 rows)
+2025-10-07 04:56:28,327 - INFO - Processing 407/503 : SJM - J.M. Smucker Company (The) - 3y
+2025-10-07 04:56:28,881 - INFO - Successfully saved SJM data (751 rows)
+2025-10-07 04:56:28,882 - INFO - Processing 408/503 : SLB - Schlumberger - 3y
+2025-10-07 04:56:29,427 - INFO - Successfully saved SLB data (751 rows)
+2025-10-07 04:56:29,428 - INFO - Processing 409/503 : SMCI - Supermicro - 3y
+2025-10-07 04:56:29,935 - INFO - Successfully saved SMCI data (751 rows)
+2025-10-07 04:56:29,935 - INFO - Processing 410/503 : SNA - Snap-on - 3y
+2025-10-07 04:56:30,505 - INFO - Successfully saved SNA data (751 rows)
+2025-10-07 04:56:30,506 - INFO - Processing 411/503 : SNPS - Synopsys - 3y
+2025-10-07 04:56:30,986 - INFO - Successfully saved SNPS data (751 rows)
+2025-10-07 04:56:30,987 - INFO - Processing 412/503 : SO - Southern Company - 3y
+2025-10-07 04:56:31,603 - INFO - Successfully saved SO data (751 rows)
+2025-10-07 04:56:31,603 - INFO - Processing 413/503 : SOLV - Solventum - 3y
+2025-10-07 04:56:32,039 - INFO - Successfully saved SOLV data (384 rows)
+2025-10-07 04:56:32,039 - INFO - Processing 414/503 : SPG - Simon Property Group - 3y
+2025-10-07 04:56:32,599 - INFO - Successfully saved SPG data (751 rows)
+2025-10-07 04:56:32,600 - INFO - Processing 415/503 : SPGI - S&P Global - 3y
+2025-10-07 04:56:33,156 - INFO - Successfully saved SPGI data (751 rows)
+2025-10-07 04:56:33,157 - INFO - Processing 416/503 : SRE - Sempra - 3y
+2025-10-07 04:56:33,680 - INFO - Successfully saved SRE data (751 rows)
+2025-10-07 04:56:33,680 - INFO - Processing 417/503 : STE - Steris - 3y
+2025-10-07 04:56:34,194 - INFO - Successfully saved STE data (751 rows)
+2025-10-07 04:56:34,195 - INFO - Processing 418/503 : STLD - Steel Dynamics - 3y
+2025-10-07 04:56:34,701 - INFO - Successfully saved STLD data (751 rows)
+2025-10-07 04:56:34,702 - INFO - Processing 419/503 : STT - State Street Corporation - 3y
+2025-10-07 04:56:35,217 - INFO - Successfully saved STT data (751 rows)
+2025-10-07 04:56:35,217 - INFO - Processing 420/503 : STX - Seagate Technology - 3y
+2025-10-07 04:56:35,743 - INFO - Successfully saved STX data (751 rows)
+2025-10-07 04:56:35,744 - INFO - Processing 421/503 : STZ - Constellation Brands - 3y
+2025-10-07 04:56:36,240 - INFO - Successfully saved STZ data (751 rows)
+2025-10-07 04:56:36,241 - INFO - Processing 422/503 : SW - Smurfit Westrock - 3y
+2025-10-07 04:56:36,734 - INFO - Successfully saved SW data (751 rows)
+2025-10-07 04:56:36,735 - INFO - Processing 423/503 : SWK - Stanley Black & Decker - 3y
+2025-10-07 04:56:37,243 - INFO - Successfully saved SWK data (751 rows)
+2025-10-07 04:56:37,244 - INFO - Processing 424/503 : SWKS - Skyworks Solutions - 3y
+2025-10-07 04:56:37,773 - INFO - Successfully saved SWKS data (751 rows)
+2025-10-07 04:56:37,774 - INFO - Processing 425/503 : SYF - Synchrony Financial - 3y
+2025-10-07 04:56:38,345 - INFO - Successfully saved SYF data (751 rows)
+2025-10-07 04:56:38,345 - INFO - Processing 426/503 : SYK - Stryker Corporation - 3y
+2025-10-07 04:56:38,876 - INFO - Successfully saved SYK data (751 rows)
+2025-10-07 04:56:38,876 - INFO - Processing 427/503 : SYY - Sysco - 3y
+2025-10-07 04:56:39,449 - INFO - Successfully saved SYY data (751 rows)
+2025-10-07 04:56:39,450 - INFO - Processing 428/503 : T - AT&T - 3y
+2025-10-07 04:56:40,030 - INFO - Successfully saved T data (751 rows)
+2025-10-07 04:56:40,030 - INFO - Processing 429/503 : TAP - Molson Coors Beverage Company - 3y
+2025-10-07 04:56:40,584 - INFO - Successfully saved TAP data (751 rows)
+2025-10-07 04:56:40,584 - INFO - Processing 430/503 : TDG - TransDigm Group - 3y
+2025-10-07 04:56:41,113 - INFO - Successfully saved TDG data (751 rows)
+2025-10-07 04:56:41,113 - INFO - Processing 431/503 : TDY - Teledyne Technologies - 3y
+2025-10-07 04:56:41,577 - INFO - Successfully saved TDY data (751 rows)
+2025-10-07 04:56:41,578 - INFO - Processing 432/503 : TECH - Bio-Techne - 3y
+2025-10-07 04:56:42,159 - INFO - Successfully saved TECH data (751 rows)
+2025-10-07 04:56:42,159 - INFO - Processing 433/503 : TEL - TE Connectivity - 3y
+2025-10-07 04:56:42,700 - INFO - Successfully saved TEL data (751 rows)
+2025-10-07 04:56:42,700 - INFO - Processing 434/503 : TER - Teradyne - 3y
+2025-10-07 04:56:43,202 - INFO - Successfully saved TER data (751 rows)
+2025-10-07 04:56:43,203 - INFO - Processing 435/503 : TFC - Truist Financial - 3y
+2025-10-07 04:56:43,757 - INFO - Successfully saved TFC data (751 rows)
+2025-10-07 04:56:43,757 - INFO - Processing 436/503 : TGT - Target Corporation - 3y
+2025-10-07 04:56:44,337 - INFO - Successfully saved TGT data (751 rows)
+2025-10-07 04:56:44,338 - INFO - Processing 437/503 : TJX - TJX Companies - 3y
+2025-10-07 04:56:44,872 - INFO - Successfully saved TJX data (751 rows)
+2025-10-07 04:56:44,873 - INFO - Processing 438/503 : TKO - TKO Group Holdings - 3y
+2025-10-07 04:56:45,421 - INFO - Successfully saved TKO data (751 rows)
+2025-10-07 04:56:45,422 - INFO - Processing 439/503 : TMO - Thermo Fisher Scientific - 3y
+2025-10-07 04:56:45,973 - INFO - Successfully saved TMO data (751 rows)
+2025-10-07 04:56:45,974 - INFO - Processing 440/503 : TMUS - T-Mobile US - 3y
+2025-10-07 04:56:46,500 - INFO - Successfully saved TMUS data (751 rows)
+2025-10-07 04:56:46,501 - INFO - Processing 441/503 : TPL - Texas Pacific Land Corporation - 3y
+2025-10-07 04:56:47,019 - INFO - Successfully saved TPL data (751 rows)
+2025-10-07 04:56:47,020 - INFO - Processing 442/503 : TPR - Tapestry, Inc. - 3y
+2025-10-07 04:56:47,524 - INFO - Successfully saved TPR data (751 rows)
+2025-10-07 04:56:47,524 - INFO - Processing 443/503 : TRGP - Targa Resources - 3y
+2025-10-07 04:56:48,030 - INFO - Successfully saved TRGP data (751 rows)
+2025-10-07 04:56:48,030 - INFO - Processing 444/503 : TRMB - Trimble Inc. - 3y
+2025-10-07 04:56:48,527 - INFO - Successfully saved TRMB data (751 rows)
+2025-10-07 04:56:48,527 - INFO - Processing 445/503 : TROW - T. Rowe Price - 3y
+2025-10-07 04:56:49,061 - INFO - Successfully saved TROW data (751 rows)
+2025-10-07 04:56:49,061 - INFO - Processing 446/503 : TRV - Travelers Companies (The) - 3y
+2025-10-07 04:56:49,631 - INFO - Successfully saved TRV data (751 rows)
+2025-10-07 04:56:49,631 - INFO - Processing 447/503 : TSCO - Tractor Supply - 3y
+2025-10-07 04:56:50,182 - INFO - Successfully saved TSCO data (751 rows)
+2025-10-07 04:56:50,183 - INFO - Processing 448/503 : TSLA - Tesla, Inc. - 3y
+2025-10-07 04:56:50,659 - INFO - Successfully saved TSLA data (751 rows)
+2025-10-07 04:56:50,659 - INFO - Processing 449/503 : TSN - Tyson Foods - 3y
+2025-10-07 04:56:51,236 - INFO - Successfully saved TSN data (751 rows)
+2025-10-07 04:56:51,236 - INFO - Processing 450/503 : TT - Trane Technologies - 3y
+2025-10-07 04:56:51,756 - INFO - Successfully saved TT data (751 rows)
+2025-10-07 04:56:51,757 - INFO - Processing 451/503 : TTD - Trade Desk (The) - 3y
+2025-10-07 04:56:52,248 - INFO - Successfully saved TTD data (751 rows)
+2025-10-07 04:56:52,248 - INFO - Processing 452/503 : TTWO - Take-Two Interactive - 3y
+2025-10-07 04:56:52,709 - INFO - Successfully saved TTWO data (751 rows)
+2025-10-07 04:56:52,710 - INFO - Processing 453/503 : TXN - Texas Instruments - 3y
+2025-10-07 04:56:53,294 - INFO - Successfully saved TXN data (751 rows)
+2025-10-07 04:56:53,294 - INFO - Processing 454/503 : TXT - Textron - 3y
+2025-10-07 04:56:53,899 - INFO - Successfully saved TXT data (751 rows)
+2025-10-07 04:56:53,899 - INFO - Processing 455/503 : TYL - Tyler Technologies - 3y
+2025-10-07 04:56:54,390 - INFO - Successfully saved TYL data (751 rows)
+2025-10-07 04:56:54,390 - INFO - Processing 456/503 : UAL - United Airlines Holdings - 3y
+2025-10-07 04:56:54,954 - INFO - Successfully saved UAL data (751 rows)
+2025-10-07 04:56:54,955 - INFO - Processing 457/503 : UBER - Uber - 3y
+2025-10-07 04:56:55,425 - INFO - Successfully saved UBER data (751 rows)
+2025-10-07 04:56:55,426 - INFO - Processing 458/503 : UDR - UDR, Inc. - 3y
+2025-10-07 04:56:55,972 - INFO - Successfully saved UDR data (751 rows)
+2025-10-07 04:56:55,972 - INFO - Processing 459/503 : UHS - Universal Health Services - 3y
+2025-10-07 04:56:56,550 - INFO - Successfully saved UHS data (751 rows)
+2025-10-07 04:56:56,551 - INFO - Processing 460/503 : ULTA - Ulta Beauty - 3y
+2025-10-07 04:56:57,028 - INFO - Successfully saved ULTA data (751 rows)
+2025-10-07 04:56:57,028 - INFO - Processing 461/503 : UNH - UnitedHealth Group - 3y
+2025-10-07 04:56:57,607 - INFO - Successfully saved UNH data (751 rows)
+2025-10-07 04:56:57,608 - INFO - Processing 462/503 : UNP - Union Pacific Corporation - 3y
+2025-10-07 04:56:58,188 - INFO - Successfully saved UNP data (751 rows)
+2025-10-07 04:56:58,188 - INFO - Processing 463/503 : UPS - United Parcel Service - 3y
+2025-10-07 04:56:58,724 - INFO - Successfully saved UPS data (751 rows)
+2025-10-07 04:56:58,725 - INFO - Processing 464/503 : URI - United Rentals - 3y
+2025-10-07 04:56:59,250 - INFO - Successfully saved URI data (751 rows)
+2025-10-07 04:56:59,251 - INFO - Processing 465/503 : USB - U.S. Bancorp - 3y
+2025-10-07 04:56:59,808 - INFO - Successfully saved USB data (751 rows)
+2025-10-07 04:56:59,808 - INFO - Processing 466/503 : V - Visa Inc. - 3y
+2025-10-07 04:57:00,357 - INFO - Successfully saved V data (751 rows)
+2025-10-07 04:57:00,357 - INFO - Processing 467/503 : VICI - Vici Properties - 3y
+2025-10-07 04:57:00,923 - INFO - Successfully saved VICI data (751 rows)
+2025-10-07 04:57:00,924 - INFO - Processing 468/503 : VLO - Valero Energy - 3y
+2025-10-07 04:57:01,449 - INFO - Successfully saved VLO data (751 rows)
+2025-10-07 04:57:01,450 - INFO - Processing 469/503 : VLTO - Veralto - 3y
+2025-10-07 04:57:01,903 - INFO - Successfully saved VLTO data (503 rows)
+2025-10-07 04:57:01,904 - INFO - Processing 470/503 : VMC - Vulcan Materials Company - 3y
+2025-10-07 04:57:02,464 - INFO - Successfully saved VMC data (751 rows)
+2025-10-07 04:57:02,464 - INFO - Processing 471/503 : VRSK - Verisk Analytics - 3y
+2025-10-07 04:57:02,960 - INFO - Successfully saved VRSK data (751 rows)
+2025-10-07 04:57:02,960 - INFO - Processing 472/503 : VRSN - Verisign - 3y
+2025-10-07 04:57:03,451 - INFO - Successfully saved VRSN data (751 rows)
+2025-10-07 04:57:03,451 - INFO - Processing 473/503 : VRTX - Vertex Pharmaceuticals - 3y
+2025-10-07 04:57:03,959 - INFO - Successfully saved VRTX data (751 rows)
+2025-10-07 04:57:03,960 - INFO - Processing 474/503 : VST - Vistra Corp. - 3y
+2025-10-07 04:57:04,436 - INFO - Successfully saved VST data (751 rows)
+2025-10-07 04:57:04,436 - INFO - Processing 475/503 : VTR - Ventas - 3y
+2025-10-07 04:57:05,024 - INFO - Successfully saved VTR data (751 rows)
+2025-10-07 04:57:05,024 - INFO - Processing 476/503 : VTRS - Viatris - 3y
+2025-10-07 04:57:05,573 - INFO - Successfully saved VTRS data (751 rows)
+2025-10-07 04:57:05,573 - INFO - Processing 477/503 : VZ - Verizon - 3y
+2025-10-07 04:57:06,155 - INFO - Successfully saved VZ data (751 rows)
+2025-10-07 04:57:06,156 - INFO - Processing 478/503 : WAB - Wabtec - 3y
+2025-10-07 04:57:06,709 - INFO - Successfully saved WAB data (751 rows)
+2025-10-07 04:57:06,709 - INFO - Processing 479/503 : WAT - Waters Corporation - 3y
+2025-10-07 04:57:07,206 - INFO - Successfully saved WAT data (751 rows)
+2025-10-07 04:57:07,207 - INFO - Processing 480/503 : WBA - Walgreens Boots Alliance - 3y
+2025-10-07 04:57:07,770 - INFO - Successfully saved WBA data (725 rows)
+2025-10-07 04:57:07,771 - INFO - Processing 481/503 : WBD - Warner Bros. Discovery - 3y
+2025-10-07 04:57:08,233 - INFO - Successfully saved WBD data (751 rows)
+2025-10-07 04:57:08,233 - INFO - Processing 482/503 : WDAY - Workday, Inc. - 3y
+2025-10-07 04:57:08,733 - INFO - Successfully saved WDAY data (751 rows)
+2025-10-07 04:57:08,734 - INFO - Processing 483/503 : WDC - Western Digital - 3y
+2025-10-07 04:57:09,233 - INFO - Successfully saved WDC data (751 rows)
+2025-10-07 04:57:09,233 - INFO - Processing 484/503 : WEC - WEC Energy Group - 3y
+2025-10-07 04:57:09,782 - INFO - Successfully saved WEC data (751 rows)
+2025-10-07 04:57:09,783 - INFO - Processing 485/503 : WELL - Welltower - 3y
+2025-10-07 04:57:10,331 - INFO - Successfully saved WELL data (751 rows)
+2025-10-07 04:57:10,332 - INFO - Processing 486/503 : WFC - Wells Fargo - 3y
+2025-10-07 04:57:10,922 - INFO - Successfully saved WFC data (751 rows)
+2025-10-07 04:57:10,923 - INFO - Processing 487/503 : WM - Waste Management - 3y
+2025-10-07 04:57:11,469 - INFO - Successfully saved WM data (751 rows)
+2025-10-07 04:57:11,470 - INFO - Processing 488/503 : WMB - Williams Companies - 3y
+2025-10-07 04:57:12,016 - INFO - Successfully saved WMB data (751 rows)
+2025-10-07 04:57:12,017 - INFO - Processing 489/503 : WMT - Walmart - 3y
+2025-10-07 04:57:12,615 - INFO - Successfully saved WMT data (751 rows)
+2025-10-07 04:57:12,615 - INFO - Processing 490/503 : WRB - W. R. Berkley Corporation - 3y
+2025-10-07 04:57:13,159 - INFO - Successfully saved WRB data (751 rows)
+2025-10-07 04:57:13,159 - INFO - Processing 491/503 : WSM - Williams-Sonoma, Inc. - 3y
+2025-10-07 04:57:13,697 - INFO - Successfully saved WSM data (751 rows)
+2025-10-07 04:57:13,697 - INFO - Processing 492/503 : WST - West Pharmaceutical Services - 3y
+2025-10-07 04:57:14,332 - INFO - Successfully saved WST data (751 rows)
+2025-10-07 04:57:14,333 - INFO - Processing 493/503 : WTW - Willis Towers Watson - 3y
+2025-10-07 04:57:14,943 - INFO - Successfully saved WTW data (751 rows)
+2025-10-07 04:57:14,944 - INFO - Processing 494/503 : WY - Weyerhaeuser - 3y
+2025-10-07 04:57:15,597 - INFO - Successfully saved WY data (751 rows)
+2025-10-07 04:57:15,597 - INFO - Processing 495/503 : WYNN - Wynn Resorts - 3y
+2025-10-07 04:57:16,103 - INFO - Successfully saved WYNN data (751 rows)
+2025-10-07 04:57:16,104 - INFO - Processing 496/503 : XEL - Xcel Energy - 3y
+2025-10-07 04:57:16,705 - INFO - Successfully saved XEL data (751 rows)
+2025-10-07 04:57:16,706 - INFO - Processing 497/503 : XOM - ExxonMobil - 3y
+2025-10-07 04:57:17,333 - INFO - Successfully saved XOM data (751 rows)
+2025-10-07 04:57:17,333 - INFO - Processing 498/503 : XYL - Xylem Inc. - 3y
+2025-10-07 04:57:17,828 - INFO - Successfully saved XYL data (751 rows)
+2025-10-07 04:57:17,829 - INFO - Processing 499/503 : XYZ - Block, Inc. - 3y
+2025-10-07 04:57:18,336 - INFO - Successfully saved XYZ data (751 rows)
+2025-10-07 04:57:18,337 - INFO - Processing 500/503 : YUM - Yum! Brands - 3y
+2025-10-07 04:57:18,873 - INFO - Successfully saved YUM data (751 rows)
+2025-10-07 04:57:18,873 - INFO - Processing 501/503 : ZBH - Zimmer Biomet - 3y
+2025-10-07 04:57:19,406 - INFO - Successfully saved ZBH data (751 rows)
+2025-10-07 04:57:19,406 - INFO - Processing 502/503 : ZBRA - Zebra Technologies - 3y
+2025-10-07 04:57:19,901 - INFO - Successfully saved ZBRA data (751 rows)
+2025-10-07 04:57:19,902 - INFO - Processing 503/503 : ZTS - Zoetis - 3y
+2025-10-07 04:57:20,405 - INFO - Successfully saved ZTS data (751 rows)
+2025-10-07 04:57:20,406 - INFO - S&P 500 data download process completed
