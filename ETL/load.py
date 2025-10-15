@@ -1,7 +1,7 @@
 # from logGenerator import log_generator
 # from dotenv import load_dotenv
-# import os
-# import logging
+import os
+import logging
 # import sqlite3
 # from SQLite_database_connector import SQLite_database_connector
 # class load:
@@ -28,3 +28,13 @@
 #         pass
 
 # load = load("LOG_FILE_PATH", "SMP_500", "RAW_DATA_PATH", "DATABASE_PATH","ok.db")
+import pandas as pd
+class load_dataset:
+    def __init__(self, filename):
+        self.__df = None
+
+    def load(self):
+        self.__df = pd.read_csv(self.__filename)
+        print(f"✅ Loaded {len(self.__df)} companies from {self.__list_500}")
+        logging.info(f"Loaded {self.__filename} with {len(self.__df)} companies data")
+        
