@@ -32,10 +32,5 @@ class log_generator:
 
 
 
-    def generateLog(self):
-       pass
+   
 
-
-logGenerator = log_generator("LOG_FILE_PATH")
-logGenerator.log_config()
-logGenerator.generateLog()
