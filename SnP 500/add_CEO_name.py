@@ -157,5 +157,5 @@ if __name__ == "__main__":
         logging.info(f"✅ Full CEO list saved!")
         
     except Exception as e:
-        print(f"❌ Error in main execution: {e}")
-        logging.error(f"Main execution error: {e}")
+        print(f"❌ Error in main execution : {e}")
+        logging.error(f"Main execution error : {e}")
