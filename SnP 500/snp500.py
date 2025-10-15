@@ -99,7 +99,7 @@ class snp_500:
 
 
     
-crawler = snp_500("LOG_FILE_PATH","SMP_500", "RAW_DATA_PATH", "5y")
+crawler = snp_500("LOG_FILE_PATH","SMP_500", "RAW_DATA_PATH", "2y")
 crawler.load_SNP500_list() #this is not a function, it is a method
 crawler.download_all()
 # fix it later
