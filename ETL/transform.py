@@ -3,6 +3,9 @@ from dotenv import load_dotenv
 import os
 import logging
 
+# cleaning data and formating data
+# run commnad : python -m "ETL.transform"
+# formating data
 class transform:
     def __init__(self, log_file_path, list_500, base_dir):
         load_dotenv()
