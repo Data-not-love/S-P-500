@@ -6,7 +6,6 @@ from datetime import datetime
 
 class log_generator:
     def __init__(self, logFilePath):
-        # load .env
         load_dotenv()
         self.__logFilePath = os.getenv(logFilePath)
         self.__logFileForEachDay = self.generate_log_file_for_each_day()
