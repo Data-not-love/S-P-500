@@ -2,6 +2,7 @@
 # from dotenv import load_dotenv
 import os
 import logging
+import pandas as pd
 # import sqlite3
 # from SQLite_database_connector import SQLite_database_connector
 # class load:
