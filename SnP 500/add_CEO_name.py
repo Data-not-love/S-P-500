@@ -127,10 +127,10 @@ class CEODataCollector:
         self.__df.to_csv(output_file, index=False)
         
         print(f"\n🎉 Process completed!")
-        print(f"📁 Saved to: {output_file}")
-        print(f"✅ Successful fetches: {self.__successful_fetches}")
-        print(f"❌ Failed fetches: {self.__failed_fetches}")
-        print(f"📊 Total companies: {len(self.__df)}")
+        print(f"📁 Saved to : {output_file}")
+        print(f"✅ Successful fetches : {self.__successful_fetches}")
+        print(f"❌ Failed fetches : {self.__failed_fetches}")
+        print(f"📊 Total companies : {len(self.__df)}")
         
         logging.info(f"CEO data collection completed. Success: {self.__successful_fetches}, Failed: {self.__failed_fetches}")
         
@@ -157,5 +157,5 @@ if __name__ == "__main__":
         logging.info(f"✅ Full CEO list saved!")
         
     except Exception as e:
-        print(f"❌ Error in main execution: {e}")
-        logging.error(f"Main execution error: {e}")
+        print(f"❌ Error in main execution : {e}")
+        logging.error(f"Main execution error : {e}")
