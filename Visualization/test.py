@@ -26,3 +26,11 @@ class Visualization:
         self.__successful_visualizations = 0
         self.__failed_visualizations = 0
     
+    def visualize(self):
+        pass
+
+    def __visualize_smp_500(self):
+        pass
+
+    def __visualize_smp_500_data(self):
+        pass
