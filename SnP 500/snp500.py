@@ -92,9 +92,9 @@ class snp_500:
                 logging.error(f"Failed to fetch {symbol}: {e}")
 
         print("\nAll companies processed!")
-        print(f"📊 Total companies: {len(self.__df)}")
-        print(f"✅ Successful fetches: {self.__successful_fetches}")
-        print(f"❌ Failed fetches: {self.__failed_fetches}")
+        print(f"📊 Total companies : {len(self.__df)}")
+        print(f"✅ Successful fetches : {self.__successful_fetches}")
+        print(f"❌ Failed fetches : {self.__failed_fetches}")
         logging.info("S&P 500 data download process completed")
 
 
