@@ -1,0 +1,136 @@
+2025-10-16 08:02:40,148 - INFO - Just testing
+2025-10-16 08:18:36,406 - INFO - Just testing
+2025-10-16 08:18:55,379 - INFO - Just testing
+2025-10-16 08:22:56,852 - INFO - Just testing
+2025-10-16 08:22:56,855 - INFO - Loaded 1255 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 5y.csv. Loaded successfully.
+2025-10-16 08:22:56,856 - INFO - Price Change: 0       2.098026
+1       0.713196
+2      -1.017858
+3       0.311587
+4      -0.810129
+          ...   
+1250    0.289993
+1251   -3.220001
+1252   -4.490005
+1253    0.529999
+1254    3.259995
+Name: Price Change, Length: 1255, dtype: float64. Calculated successfully.
+2025-10-16 08:22:56,857 - INFO - Price Change Percentage: 0       1.824742
+1       0.606098
+2      -0.859547
+3       0.263928
+4      -0.686858
+          ...   
+1250    0.186239
+1251   -2.062781
+1252   -2.930048
+1253    0.351995
+1254    2.183958
+Name: Price Change Percentage, Length: 1255, dtype: float64. Calculated successfully.
+2025-10-16 08:22:56,858 - INFO - Daily Range: 0       2.686589
+1       1.973394
+2       2.409626
+3       2.215746
+4       2.104964
+          ...   
+1250    3.309998
+1251    5.230011
+1252    5.789993
+1253    2.009995
+1254    4.440002
+Name: Daily Range, Length: 1255, dtype: float64. Calculated successfully.
+2025-10-16 08:22:56,858 - INFO - Basic calculations pipeline completed
+2025-10-16 08:25:41,134 - INFO - Just testing
+2025-10-16 08:25:41,137 - INFO - Loaded 1255 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 5y.csv. Loaded successfully.
+2025-10-16 08:25:41,138 - INFO - Price Change was calculated successfully.
+2025-10-16 08:25:41,139 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:25:41,139 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:25:41,139 - INFO - Basic calculations pipeline completed
+2025-10-16 08:39:52,152 - INFO - Loaded 1255 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 5y.csv. Loaded successfully.
+2025-10-16 08:39:52,153 - INFO - Price Change was calculated successfully.
+2025-10-16 08:39:52,153 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:39:52,154 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:39:52,154 - INFO - Basic calculations pipeline completed
+2025-10-16 08:39:52,925 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:39:52,963 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:39:52,991 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:39:53,015 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:39:53,034 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:39:53,051 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:40:43,247 - INFO - Loaded 1255 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 5y.csv. Loaded successfully.
+2025-10-16 08:40:43,248 - INFO - Price Change was calculated successfully.
+2025-10-16 08:40:43,249 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:40:43,249 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:40:43,249 - INFO - Basic calculations pipeline completed
+2025-10-16 08:40:43,356 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:40:43,374 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:41:50,761 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:41:50,762 - INFO - Price Change was calculated successfully.
+2025-10-16 08:41:50,763 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:41:50,763 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:41:50,763 - INFO - Basic calculations pipeline completed
+2025-10-16 08:41:50,858 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:41:50,862 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:43:09,686 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:43:09,687 - INFO - Price Change was calculated successfully.
+2025-10-16 08:43:09,688 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:43:09,688 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:43:09,688 - INFO - Basic calculations pipeline completed
+2025-10-16 08:43:09,788 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:43:09,793 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:44:20,796 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:44:20,798 - INFO - Price Change was calculated successfully.
+2025-10-16 08:44:20,799 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:44:20,799 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:44:20,800 - INFO - Basic calculations pipeline completed
+2025-10-16 08:44:20,934 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:44:20,939 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:45:24,625 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:45:24,626 - INFO - Price Change was calculated successfully.
+2025-10-16 08:45:24,627 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:45:24,627 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:45:24,627 - INFO - Basic calculations pipeline completed
+2025-10-16 08:45:24,723 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:45:24,727 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-10-16 08:48:55,164 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:48:55,165 - INFO - Price Change was calculated successfully.
+2025-10-16 08:48:55,166 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:48:55,167 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:48:55,167 - INFO - Basic calculations pipeline completed
+2025-10-16 08:48:56,457 - INFO - Interactive TradingView-style chart created
+2025-10-16 08:53:36,215 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:53:36,216 - INFO - Price Change was calculated successfully.
+2025-10-16 08:53:36,217 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:53:36,217 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:53:36,217 - INFO - Basic calculations pipeline completed
+2025-10-16 08:53:36,772 - INFO - Interactive TradingView-style chart created
+2025-10-16 08:55:30,970 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:55:30,971 - INFO - Price Change was calculated successfully.
+2025-10-16 08:55:30,972 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:55:30,972 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:55:30,972 - INFO - Basic calculations pipeline completed
+2025-10-16 08:55:31,556 - INFO - Interactive TradingView-style chart created
+2025-10-16 08:59:00,180 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 08:59:00,181 - INFO - Price Change was calculated successfully.
+2025-10-16 08:59:00,182 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 08:59:00,182 - INFO - Daily Range was calculated successfully.
+2025-10-16 08:59:00,182 - INFO - Basic calculations pipeline completed
+2025-10-16 08:59:00,760 - INFO - Interactive TradingView-style chart created
+2025-10-16 09:03:51,725 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 09:03:51,726 - INFO - Price Change was calculated successfully.
+2025-10-16 09:03:51,727 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 09:03:51,727 - INFO - Daily Range was calculated successfully.
+2025-10-16 09:03:51,727 - INFO - Basic calculations pipeline completed
+2025-10-16 09:03:52,318 - INFO - Interactive TradingView-style chart created
+2025-10-16 09:05:38,046 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 09:05:38,047 - INFO - Price Change was calculated successfully.
+2025-10-16 09:05:38,048 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 09:05:38,048 - INFO - Daily Range was calculated successfully.
+2025-10-16 09:05:38,048 - INFO - Basic calculations pipeline completed
+2025-10-16 09:05:38,725 - INFO - Interactive TradingView-style chart created
+2025-10-16 09:12:11,238 - INFO - Loaded 250 companies from /home/lana-ddos/Downloads/cd1/raw data/3M/MMM 1y.csv. Loaded successfully.
+2025-10-16 09:12:11,239 - INFO - Price Change was calculated successfully.
+2025-10-16 09:12:11,240 - INFO - Price Change Percentage was calculated successfully.
+2025-10-16 09:12:11,240 - INFO - Daily Range was calculated successfully.
+2025-10-16 09:12:11,240 - INFO - Basic calculations pipeline completed
+2025-10-16 09:12:11,813 - INFO - Interactive TradingView-style chart created

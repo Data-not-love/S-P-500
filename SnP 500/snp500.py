@@ -1,9 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pandas as pd
 import yfinance as yf
 from dotenv import load_dotenv
-import os
 from logGenerator import log_generator
 import logging
+
 #from ETL.load import load_dataset
 #from load_dataset import load_dataset
 ## run commnad : python -m "SnP 500.snp500"
@@ -99,7 +102,7 @@ class snp_500:
 
 
     
-crawler = snp_500("LOG_FILE_PATH","SMP_500", "RAW_DATA_PATH", "2y")
+crawler = snp_500("LOG_FILE_PATH","SMP_500", "RAW_DATA_PATH", "2mo")
 crawler.load_SNP500_list() #this is not a function, it is a method
 crawler.download_all()
 # fix it later
