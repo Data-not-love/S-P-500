@@ -3,15 +3,61 @@ import pandas as pd
 import torch
 import torch.nn as nn
 from sklearn.preprocessing import MinMaxScaler
-import io
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 
-# --- 1. Định nghĩa Lớp GM(1,1) (Dùng NumPy - Ổn định) ---
+# =========================================================================
+# === KHAI BÁO DỮ LIỆU GIẢ ĐỊNH  ===
+# =========================================================================
+
+file_path = 'D:\\S-P-500-development\\raw data\\3M\\MMM 5y.csv' 
+try:
+    # 1. Đọc file CSV thực tế
+    df = pd.read_csv(file_path)
+    
+    # 2. Xử lý Ngày tháng và Sắp xếp
+    df['Date'] = pd.to_datetime(df['Date'])
+    df = df.sort_values(by='Date', ascending=True)
+
+    # 3. TÍNH TOÁN: LẤY 3 THÁNG CUỐI CÙNG
+    latest_date = df['Date'].max()
+    # Tính ngày bắt đầu (3 tháng trước ngày cuối cùng)
+    start_date = latest_date - pd.DateOffset(months=3)
+    
+    # Lọc DataFrame
+    df_recent = df[df['Date'] >= start_date].copy()
+    
+    # Gán kết quả vào các biến
+    data_X0_prices_full = df_recent['Close'].values
+    dates_full = df_recent['Date'].values
+    print(f"ĐÃ TẢI THÀNH CÔNG {len(data_X0_prices_full)} ngày dữ liệu (3 tháng cuối cùng) từ file.")
+
+except FileNotFoundError:
+   print(f"LỖI: Không tìm thấy file tại đường dẫn: {file_path}")
+   print("Sử dụng dữ liệu mô phỏng để tiếp tục phân tích.")
+   
+
+forecast_steps = 5 # 5 ngày dự báo/kiểm tra (Giá trị cố định)
+total_data_length = len(data_X0_prices_full)
+
+if total_data_length <= forecast_steps + 1: # Cần ít nhất 6 ngày (1 train + 5 test)
+    raise ValueError(f"Lỗi: Dữ liệu hiện có ({total_data_length} ngày) không đủ để tách 5 ngày kiểm tra.")
+
+# train_len tự động scale bằng tổng số ngày trừ đi 5 ngày kiểm tra
+train_len = total_data_length - forecast_steps
+print(f"Train Length (train_len) tự động điều chỉnh = {train_len} ngày.")
+
+
+# =========================================================================
+# === PHẦN 1: ĐỊNH NGHĨA MÔ HÌNH VÀ HÀM (Cập nhật Kiến trúc LSTM) ===
+# =========================================================================
+
+# --- Định nghĩa Lớp GM(1,1) (NumPy) ---
 class GreyModelGM11_NumPy:
+    # (Giữ nguyên class GM(1,1) như trước)
     def __init__(self):
         self.a = None
         self.b = None
-        self.X0 = None 
         self.X0_start = None
 
     def fit(self, X0):
@@ -22,7 +68,6 @@ class GreyModelGM11_NumPy:
         Z1 = 0.5 * (X1[1:] + X1[:-1])
         Y = self.X0[1:].reshape(-1, 1) 
         B = np.vstack([-Z1, np.ones(n - 1)]).T
-        
         params = np.linalg.inv(B.T @ B) @ B.T @ Y
         self.a = params[0, 0]
         self.b = params[1, 0]
@@ -39,27 +84,29 @@ class GreyModelGM11_NumPy:
         X1_pred_all = np.array([self._predict_X1(k) for k in range(1, total_k + 1)])
         X0_pred_all = X1_pred_all[1:] - X1_pred_all[:-1]
         
-        X0_fitted = np.insert(X0_pred_all[:n-1], 0, self.X0_start)
-        X0_forecast = X0_pred_all[n-1:n-1+steps]
-        X0_all_fitted = X0_pred_all[:n] # Tất cả các điểm fitted (bao gồm X(0)(1))
-        
-        return X0_fitted, X0_forecast, X0_all_fitted 
+        # Trả về cả fitted values (từ index 0 đến n-1) và forecast (từ index n-1)
+        fitted = X0_pred_all[:n]
+        forecast = X0_pred_all[n-1:n-1+steps]
+        return fitted, forecast
 
-# --- 2. Định nghĩa Mô hình LSTM (PyTorch - Đã sửa lỗi) ---
+
+# --- Định nghĩa Mô hình LSTM (PyTorch) - Đã Cập nhật Hidden Size và Dropout ---
 class LSTMResidualModel(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, num_layers):
+    def __init__(self, input_size, hidden_size, output_size, num_layers, dropout_rate=0.2):
         super(LSTMResidualModel, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
-        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)
+        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True, dropout=dropout_rate)
+        self.dropout = nn.Dropout(dropout_rate)
         self.fc = nn.Linear(hidden_size, output_size)
     
     def forward(self, x):
         out, _ = self.lstm(x) 
-        out = self.fc(out[:, -1, :])
+        out = self.dropout(out[:, -1, :])
+        out = self.fc(out)
         return out
 
-# --- 3. Hàm tạo Dữ liệu chuỗi thời gian cho LSTM ---
+# --- Hàm tạo Dữ liệu chuỗi thời gian cho LSTM (Giữ nguyên) ---
 def create_dataset(data, lookback=1):
     X, Y = [], []
     for i in range(len(data) - lookback):
@@ -67,41 +114,53 @@ def create_dataset(data, lookback=1):
         Y.append(data[i + lookback, 0])
     return np.array(X), np.array(Y)
 
-# --- 4. Quá trình Lai (Hybrid GM-LSTM) ---
-def hybrid_gm_lstm_forecast(data_X0_prices, lookback=5, forecast_steps=5, epochs=100):
+# --- Hàm Tính toán Độ lỗi (Giữ nguyên) ---
+def calculate_metrics(y_true, y_pred):
+    y_true = np.where(y_true == 0, 1e-10, y_true)
+    mse = mean_squared_error(y_true, y_pred)
+    mae = mean_absolute_error(y_true, y_pred)
+    mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+    return mse, mae, mape
+
+# --- Hàm Thực thi Mô hình Lai - ĐÃ VIẾT LẠI LOGIC CHUẨN HÓA GIÁ ---
+def hybrid_gm_lstm_forecast_actual(data_X0_prices_full, train_len, forecast_steps=5, lookback=30, epochs=500):
     
-    # 4.1. Biến đổi dữ liệu gốc
-    log_returns = np.log(data_X0_prices[1:] / data_X0_prices[:-1])
-    offset = np.abs(np.min(log_returns)) + 0.001
-    X0_transformed = log_returns + offset
+    data_X0_prices_train = data_X0_prices_full[:train_len]
+    P_actual_test = data_X0_prices_full[train_len:] 
     
-    # 4.2. Huấn luyện GM(1,1) và tính toán Residuals
+    # 1. Chuẩn hóa Giá đóng cửa (0-1)
+    scaler_price = MinMaxScaler(feature_range=(0, 1))
+    # reshape(-1, 1) là bắt buộc cho MinMaxScaler
+    P_train_scaled = scaler_price.fit_transform(data_X0_prices_train.reshape(-1, 1)).flatten()
+    
+    # 2. Huấn luyện GM(1,1) trên GIÁ đã chuẩn hóa
     gm11_model = GreyModelGM11_NumPy()
-    gm11_model.fit(X0_transformed)
+    gm11_model.fit(P_train_scaled)
     
-    X0_fitted_gm_plot, X0_forecast_gm, X0_all_fitted = gm11_model.get_fitted_and_forecast(forecast_steps)
+    # Lấy fitted values và dự báo GM(1,1) trên dữ liệu đã chuẩn hóa
+    P_fitted_gm_scaled, P_forecast_gm_scaled = gm11_model.get_fitted_and_forecast(forecast_steps)
     
-    # Residuals (Phần dư) = Thực tế - Fitted của GM
-    residuals_actual = X0_transformed - X0_fitted_gm_plot
+    # 3. Tính Residuals (Dư thừa) trên GIÁ đã chuẩn hóa
+    # Lưu ý: P_fitted_gm_scaled có độ dài n (train_len)
+    residuals_scaled = P_train_scaled - P_fitted_gm_scaled
     
-    # 4.3. Tiền xử lý Residuals cho LSTM
-    scaler = MinMaxScaler(feature_range=(0, 1))
-    residuals_scaled = scaler.fit_transform(residuals_actual.reshape(-1, 1))
-    X_res, Y_res = create_dataset(residuals_scaled, lookback)
+    # 4. Huấn luyện LSTM trên Residuals
+    scaler_res = MinMaxScaler(feature_range=(0, 1)) # Scaler mới cho Residuals
+    residuals_scaled_for_lstm = scaler_res.fit_transform(residuals_scaled.reshape(-1, 1))
+    
+    # Chuẩn bị dữ liệu cho LSTM
+    X_res, Y_res = create_dataset(residuals_scaled_for_lstm, lookback)
     
     X_res_torch = torch.from_numpy(X_res).float().unsqueeze(-1)
     Y_res_torch = torch.from_numpy(Y_res).float().unsqueeze(-1)
     
-    # 4.4. Huấn luyện LSTM trên Residuals
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    input_size = 1
-    hidden_size = 32
-    output_size = 1
-    num_layers = 2
     
-    lstm_model = LSTMResidualModel(input_size, hidden_size, output_size, num_layers).to(device)
+    # Tinh chỉnh tham số LSTM: hidden_size=64, num_layers=2, dropout=0.2
+    lstm_model = LSTMResidualModel(1, 128, 1, 3, dropout_rate=0.2).to(device) 
     criterion = nn.MSELoss()
-    optimizer = torch.optim.Adam(lstm_model.parameters(), lr=0.001)
+    # Tinh chỉnh learning rate
+    optimizer = torch.optim.Adam(lstm_model.parameters(), lr=0.0005) 
     
     X_res_torch = X_res_torch.to(device)
     Y_res_torch = Y_res_torch.to(device)
@@ -114,147 +173,106 @@ def hybrid_gm_lstm_forecast(data_X0_prices, lookback=5, forecast_steps=5, epochs
         loss.backward()
         optimizer.step()
     
-    # 4.5. Dự báo Lai (Hybrid Forecast)
     lstm_model.eval()
-    current_input = residuals_scaled[-lookback:].copy() # Dùng bản sao
-    lstm_residual_forecast = []
+    
+    # 5. Dự báo Residuals LSTM
+    current_input = residuals_scaled_for_lstm[-lookback:].copy()
+    lstm_residual_forecast_scaled = []
     
     for _ in range(forecast_steps):
         input_tensor = torch.from_numpy(current_input.reshape(1, lookback, 1)).float().to(device)
         with torch.no_grad():
-            predicted_scaled = lstm_model(input_tensor).detach().cpu().numpy().flatten()[0]
+            predicted_scaled = lstm_model(input_tensor).detach().cpu().numpy().flatten()[0] 
         
-        lstm_residual_forecast.append(predicted_scaled)
+        lstm_residual_forecast_scaled.append(predicted_scaled)
         current_input = np.append(current_input[1:], predicted_scaled)[-lookback:]
     
-    # Đảo ngược Scaling của Residuals dự báo
-    residual_forecast_orig = scaler.inverse_transform(np.array(lstm_residual_forecast).reshape(-1, 1)).flatten()
+    # Đảo ngược chuẩn hóa Residuals
+    residual_forecast_orig_scaled = scaler_res.inverse_transform(np.array(lstm_residual_forecast_scaled).reshape(-1, 1)).flatten()
     
-    # Residuals fitted (Để vẽ biểu đồ)
-    X_res_fitted = lstm_model(X_res_torch).detach().cpu().numpy().flatten()
-    residuals_fitted_orig = scaler.inverse_transform(X_res_fitted.reshape(-1, 1)).flatten()
+    # 6. KẾT HỢP VÀ ĐẢO NGƯỢC CHUẨN HÓA CUỐI CÙNG
     
-    # Dự báo Lai = GM Forecast + LSTM Residual Forecast
-    hybrid_forecast_transformed = X0_forecast_gm + residual_forecast_orig
+    # Kết hợp GM(scaled) + Residual LSTM(scaled)
+    P_hybrid_forecast_scaled = P_forecast_gm_scaled + residual_forecast_orig_scaled 
     
-    # Đảo ngược Biến đổi về Giá cổ phiếu USD
-    P_current = data_X0_prices[0] # Giá mới nhất
-    P_hybrid_forecast_usd = []
-    
-    for x in hybrid_forecast_transformed:
-        log_return_pred = x - offset
-        P_next = P_current * np.exp(log_return_pred)
-        P_hybrid_forecast_usd.append(P_next)
-        P_current = P_next
+    # Đảo ngược chuẩn hóa GM(1,1) và Hybrid về giá USD
+    P_gm_forecast_usd = scaler_price.inverse_transform(P_forecast_gm_scaled.reshape(-1, 1)).flatten()
+    P_hybrid_forecast_usd = scaler_price.inverse_transform(P_hybrid_forecast_scaled.reshape(-1, 1)).flatten()
         
-    # Giá GM(1,1) đơn thuần dự báo
-    P_current_gm = data_X0_prices[0]
-    P_gm_forecast_usd = []
-    for x in X0_forecast_gm:
-        log_return_pred = x - offset
-        P_next = P_current_gm * np.exp(log_return_pred)
-        P_gm_forecast_usd.append(P_next)
-        P_current_gm = P_next
-        
-    return P_hybrid_forecast_usd, P_gm_forecast_usd, residuals_actual, residuals_fitted_orig, data_X0_prices, gm11_model.a, gm11_model.b
+    return np.array(P_hybrid_forecast_usd), np.array(P_gm_forecast_usd), P_actual_test, data_X0_prices_train
 
-# --- 5. Thực thi và Vẽ Biểu đồ ---
+# =========================================================================
+# === PHẦN 2: THỰC THI CHÍNH & HIỂN THỊ KẾT QUẢ ===
+# =========================================================================
 
-# Tải dữ liệu (Sử dụng 20 điểm cuối)
-csv_content = """Price,Close,High,Low,Open,Volume,Date
-117.07459259033203,117.07459259033203,117.49005054216046,114.80346120514672,114.9765665790167,1959168,2020-10-15
-118.38330078125,118.38330078125,119.14495700201921,117.17156291350676,117.67010497701581,2964406,2020-10-16
-117.40003967285156,117.40003967285156,119.33880971576845,116.92918396633665,118.4178977362882,2284240,2020-10-19
-120.0,120.0,121.0,119.0,120.0,1500000,2020-10-20
-121.5,121.5,122.0,120.5,121.0,1600000,2020-10-21
-122.1,122.1,123.0,121.0,121.5,1700000,2020-10-22
-123.5,123.5,124.0,122.5,123.0,1800000,2020-10-23
-125.0,125.0,125.5,124.0,124.5,1900000,2020-10-26
-126.5,126.5,127.0,125.5,126.0,2000000,2020-10-27
-127.8,127.8,128.0,127.0,127.0,2100000,2020-10-28
-129.0,129.0,129.5,128.0,128.5,2200000,2020-10-29
-130.5,130.5,131.0,129.5,130.0,2300000,2020-10-30
-131.9,131.9,132.5,131.0,131.5,2400000,2020-11-02
-133.0,133.0,133.5,132.0,132.5,2500000,2020-11-03
-134.5,134.5,135.0,133.5,134.0,2600000,2020-11-04
-136.0,136.0,136.5,135.0,135.5,2700000,2020-11-05
-137.5,137.5,138.0,136.5,137.0,2800000,2020-11-06
-139.0,139.0,139.5,138.0,138.5,2900000,2020-11-09
-140.5,140.5,141.0,139.5,140.0,3000000,2020-11-10
-155.17999267578125,155.17999267578125,155.8800048828125,154.67999267578125,155.0,2270900,2025-09-30
-"""
-df = pd.read_csv(io.StringIO(csv_content), index_col=False, on_bad_lines='skip')
-df = df[['Close']]
-
-close_prices = df['Close'].values[::-1] # Đảo ngược: Mới nhất -> Cũ nhất
-data_X0_prices = close_prices[:20] 
-
-if len(data_X0_prices) < 20:
-    data_X0_prices = close_prices # Sử dụng tất cả nếu ít hơn 20
-
-
-P_hybrid_forecast_usd, P_gm_forecast_usd, residuals_actual, residuals_fitted_orig, data_X0_prices, a_gm, b_gm = hybrid_gm_lstm_forecast(
-    data_X0_prices, 
-    lookback=5, 
-    forecast_steps=5, 
-    epochs=100
+# Áp dụng các tinh chỉnh tối ưu mới
+P_hybrid_forecast_usd, P_gm_forecast_usd, P_actual_test, P_train_usd = hybrid_gm_lstm_forecast_actual(
+    data_X0_prices_full, 
+    train_len=train_len,
+    forecast_steps=forecast_steps, 
+    lookback=50, # Lookback lớn hơn
+    epochs=600  # Epochs cao hơn
 )
 
-# --- VẼ BIỂU ĐỒ 1: RESIDUALS (PHẦN DƯ) ---
-lookback = 5
-X_axis_actual = np.arange(1, len(residuals_actual) + 1)
-X_axis_fitted = np.arange(lookback + 1, len(residuals_actual) + 1)
+# --- TÍNH TOÁN ĐỘ LỖI ---
+mse_gm, mae_gm, mape_gm = calculate_metrics(P_actual_test, P_gm_forecast_usd)
+mse_hybrid, mae_hybrid, mape_hybrid = calculate_metrics(P_actual_test, P_hybrid_forecast_usd)
 
-plt.figure(figsize=(12, 5))
-plt.plot(X_axis_actual, residuals_actual, marker='o', linestyle='-', color='blue', label='Residuals Thực tế (GM(1,1))')
-plt.plot(X_axis_fitted, residuals_fitted_orig, marker='x', linestyle='--', color='red', label='Residuals Fitted (LSTM)')
-plt.axhline(0, color='gray', linestyle='--')
-plt.title('Biểu đồ 1: Residuals của GM(1,1) và Fitted bởi LSTM')
-plt.xlabel('Bước Thời gian (k)')
-plt.ylabel('Giá trị Phần dư')
-plt.legend()
-plt.grid(True)
-plt.show() # Hiển thị biểu đồ 1
+error_results = pd.DataFrame({
+    'Chỉ số': ['MSE', 'MAE', 'MAPE (%)'],
+    'GM(1,1)': [f'{mse_gm:.4f}', f'{mae_gm:.4f}', f'{mape_gm:.4f}'],
+    'GM + LSTM': [f'{mse_hybrid:.4f}', f'{mae_hybrid:.4f}', f'{mape_hybrid:.4f}']
+})
+print("\n## 📊 Bảng So sánh Chỉ số Độ lỗi (Sau khi chuyển sang Chuẩn hóa Giá)")
+print(error_results.to_markdown(index=False))
 
-# --- VẼ BIỂU ĐỒ 2: SO SÁNH DỰ BÁO GIÁ ---
-# Dữ liệu thực tế: 10 điểm cuối cùng
-P_past_usd = data_X0_prices[:10][::-1] 
-n_past = len(P_past_usd)
+# --- XỬ LÝ NGÀY THÁNG VÀ VẼ BIỂU ĐỒ ---
+history_length_plot = train_len
+P_past_plot = P_train_usd[-history_length_plot:] 
 
-# Trục X
-x_past = np.arange(n_past)
-x_forecast = np.arange(n_past, n_past + 5)
+all_dates_indices = np.arange(train_len - history_length_plot, train_len + forecast_steps)
+all_dates = dates_full[all_dates_indices]
 
-plt.figure(figsize=(12, 6))
-# 1. Giá Gốc
-plt.plot(x_past, P_past_usd, marker='o', linestyle='-', color='blue', label='Giá Đóng cửa Gốc')
+# Xử lý trường hợp dates_full là mảng NumPy (Datetime)
+try:
+    all_dates_str = [pd.to_datetime(d).strftime('%m-%d') for d in all_dates]
+except AttributeError:
+    all_dates_str = [pd.to_datetime(d).strftime('%m-%d') for d in all_dates]
 
-# 2. Dự báo GM(1,1) đơn thuần
-plt.plot(x_forecast, P_gm_forecast_usd, marker='^', linestyle=':', color='orange', label='Dự báo GM(1,1)')
+x_points = np.arange(history_length_plot + forecast_steps)
+x_forecast = np.arange(history_length_plot - 1, history_length_plot + forecast_steps)
 
-# 3. Dự báo Lai GM + LSTM
-plt.plot(x_forecast, P_hybrid_forecast_usd, marker='x', linestyle='--', color='red', label='Dự báo Lai GM + LSTM')
+P_actual_test_plot = np.concatenate(([P_past_plot[-1]], P_actual_test))
+P_gm_full = np.concatenate(([P_past_plot[-1]], P_gm_forecast_usd))
+P_hybrid_full = np.concatenate(([P_past_plot[-1]], P_hybrid_forecast_usd))
 
-# Đánh dấu điểm P(n)
-plt.scatter(n_past - 1, P_past_usd[-1], color='black', marker='o', s=100, zorder=5, label='P(n) - Giá cuối')
+plt.figure(figsize=(14, 6))
 
-plt.title('Biểu đồ 2: So sánh Dự báo Giá Đóng cửa (GM(1,1) vs GM + LSTM)')
-plt.xlabel('Bước Thời gian')
+plt.plot(x_points[:history_length_plot], P_past_plot, marker='o', linestyle='-', color='blue', label='Giá Gốc (Train)', zorder=2)
+plt.scatter(history_length_plot - 1, P_past_plot[-1], color='black', marker='o', s=100, zorder=5, label=f'P(n-5) - {all_dates_str[history_length_plot - 1]}')
+
+plt.plot(x_forecast, P_actual_test_plot, marker='s', linestyle='-', color='purple', label='Giá Gốc (Test/Actual)', zorder=2)
+
+plt.plot(x_forecast, P_gm_full, marker='^', linestyle=':', color='orange', label='Dự báo GM(1,1)', zorder=3)
+plt.plot(x_forecast, P_hybrid_full, marker='x', linestyle='--', color='red', label='Dự báo Lai GM + LSTM', zorder=4)
+
+plt.title('Biểu đồ So sánh Dự báo và Giá Gốc (Test Set) - Mô hình Giá Chuẩn hóa')
+plt.xlabel('Ngày tháng')
 plt.ylabel('Giá Đóng cửa (USD)')
 
-# Nhãn trục X tùy chỉnh
-all_labels = [f'P(n-{n_past-1-i})' for i in range(n_past)] + [f'P(n+{i+1})' for i in range(5)]
-plt.xticks(np.arange(n_past + 5), all_labels, rotation=45, ha='right')
+plt.xticks(x_points, all_dates_str, rotation=45, ha='right')
+plt.xlim(x_points.min(), x_points.max()) 
 
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.show() # Hiển thị biểu đồ 2
+plt.show()
 
-print("\n--- KẾT QUẢ DỰ BÁO MÔ HÌNH LAI GM(1,1) + LSTM ---")
-print(f"Giá đóng cửa cuối cùng (P(n)): {data_X0_prices[0]:.4f}")
-print(f"Tham số GM(1,1) [a, b]: [{a_gm:.6f}, {b_gm:.6f}]")
-print("-------------------------------------------------------")
-
-for i, price in enumerate(P_hybrid_forecast_usd):
-    print(f"Dự báo Giá Lai Ngày {i+1} (P(n+{i+1})): {price:.4f}")
+print("\n## 📋 Bảng So sánh Giá Gốc và Dự báo")
+comparison_table = pd.DataFrame({
+    'Ngày': all_dates_str[history_length_plot:],
+    'Giá Gốc (Actual)': P_actual_test.round(4),
+    'GM(1,1) Dự báo': P_gm_forecast_usd.round(4),
+    'Lai GM+LSTM Dự báo': P_hybrid_forecast_usd.round(4)
+})
+print(comparison_table.to_markdown(index=False))
