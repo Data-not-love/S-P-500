@@ -37,7 +37,7 @@ except FileNotFoundError:
    print("Sử dụng dữ liệu mô phỏng để tiếp tục phân tích.")
    
 
-forecast_steps = 5 # 5 ngày dự báo/kiểm tra (Giá trị cố định)
+forecast_steps = 10 # ngày dự báo/kiểm tra (Giá trị cố định)
 total_data_length = len(data_X0_prices_full)
 
 if total_data_length <= forecast_steps + 1: # Cần ít nhất 6 ngày (1 train + 5 test)
@@ -227,7 +227,7 @@ print("\n## 📊 Bảng So sánh Chỉ số Độ lỗi (Sau khi chuyển sang C
 print(error_results.to_markdown(index=False))
 
 # --- XỬ LÝ NGÀY THÁNG VÀ VẼ BIỂU ĐỒ ---
-history_length_plot = train_len
+history_length_plot = 30  # Số ngày lịch sử để hiển thị trên biểu đồ
 P_past_plot = P_train_usd[-history_length_plot:] 
 
 all_dates_indices = np.arange(train_len - history_length_plot, train_len + forecast_steps)
