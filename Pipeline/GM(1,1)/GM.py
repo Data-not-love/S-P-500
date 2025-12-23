@@ -55,15 +55,15 @@ sys.path.insert(0, base_dir)
 
 # Đảm bảo bạn cập nhật đường dẫn này nếu cần
 COMPANY_FILES = {
-    "AAPL": "D:/S-P-500-development/raw data/Apple Inc/AAPL 5y.csv",
-    "MSFT": "D:/S-P-500-development/raw data/Microsoft/MSFT 5y.csv",
-    "NFLX": "D:/S-P-500-development/raw data/Netflix/NFLX 5y.csv",
-    "IBM":  "D:/S-P-500-development/raw data/IBM/IBM 5y.csv",
-    "META": "D:/S-P-500-development/raw data/Meta Platforms/META 5y.csv",
-    "NVDA": "D:/S-P-500-development/raw data/Nvidia/NVDA 5y.csv",
-    "ORCL": "D:/S-P-500-development/raw data/Oracle Corporation/ORCL 5y.csv",
-    "TSLA": "D:/S-P-500-development/raw data/Tesla Inc/TSLA 5y.csv",
-    "INTC": "D:/S-P-500-development/raw data/Intel/INTC 5y.csv",
+    "AAPL": "D:/S-P-500/raw data/Apple Inc/AAPL 5y.csv",
+    "MSFT": "D:/S-P-500/raw data/Microsoft/MSFT 5y.csv",
+    "NFLX": "D:/S-P-500/raw data/Netflix/NFLX 5y.csv",
+    "IBM":  "D:/S-P-500/raw data/IBM/IBM 5y.csv",
+    "META": "D:/S-P-500/raw data/Meta Platforms/META 5y.csv",
+    "NVDA": "D:/S-P-500/raw data/Nvidia/NVDA 5y.csv",
+    "ORCL": "D:/S-P-500/raw data/Oracle Corporation/ORCL 5y.csv",
+    "TSLA": "D:/S-P-500/raw data/Tesla Inc/TSLA 5y.csv",
+    "INTC": "D:/S-P-500/raw data/Intel/INTC 5y.csv",
 }
 
 
